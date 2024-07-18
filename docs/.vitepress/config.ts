@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitepress'
 
+const base = '/conversion-library/'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "conversion-library",
   description: "conversion-library",
+  base,
   locales: {
     root: {
       label: 'English',
