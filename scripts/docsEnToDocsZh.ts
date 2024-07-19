@@ -1,6 +1,6 @@
 import { type DefaultTheme } from 'vitepress'
 import { consola } from 'consola'
-import { writeFile, readdir, readFile } from 'fs/promises'
+import { writeFile, readdir, readFile, mkdir } from 'fs/promises'
 import path from 'path'
 import enToZhMd from './enToZhMd'
 import enFunctionToZh from './enFunctionToZh'
@@ -11,6 +11,7 @@ async function main () {
   const docsEnPath = path.resolve(path.resolve(), 'docs/api/functions')
   const enMdList = await readdir(docsEnPath)
   const docsZhPath = path.resolve(path.resolve(), 'docs/zh/api/functions')
+  await mkdir(docsZhPath, { recursive: true })
   // const zhMdList = await readdir(docsZhPath)
   // const needCopyList: string[] = []
   // enMdList.forEach(item => {
