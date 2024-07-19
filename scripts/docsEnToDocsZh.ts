@@ -24,6 +24,35 @@ async function main () {
     const readPath = path.resolve(docsEnPath, item)
     const writePath = path.resolve(docsZhPath, item)
     let readContent = await readFile(readPath, { encoding: 'utf-8' })
+    let oldReadContent = readContent
+    while (readContent.includes('[zh:')) {
+      let zhStartIndex = readContent.indexOf('[zh:')
+      let zhEndIndex = zhStartIndex
+      while (readContent[zhEndIndex] !== ']') {
+        zhEndIndex++
+      }
+      const zhContent = readContent.slice(zhStartIndex + 4, zhEndIndex)
+      zhStartIndex--
+      while (readContent[zhStartIndex] !== '[') {
+        zhStartIndex--
+      }
+      const content = readContent.slice(zhStartIndex, zhEndIndex + 1)
+      readContent = readContent.replace(content, zhContent)
+    }
+    while (oldReadContent.includes('[en:')) {
+      let enStartIndex = oldReadContent.indexOf('[en:')
+      let enEndIndex = enStartIndex
+      while (oldReadContent[enEndIndex] !== ']') {
+        enEndIndex++
+      }
+      const enContent = oldReadContent.slice(enStartIndex + 4, enEndIndex)
+      enEndIndex++
+      while (oldReadContent[enEndIndex] !== ']') {
+        enEndIndex++
+      }
+      const content = oldReadContent.slice(enStartIndex, enEndIndex + 1)
+      oldReadContent = oldReadContent.replace(content, enContent)
+    }
     const mdName = item.split('.')[0]
     enToZhMdKeys.forEach(key => {
       readContent = readContent.replace(key, enToZhMd[key])
@@ -35,6 +64,7 @@ async function main () {
       readContent = readContent.replace(`**${mdName}**`, `**${enFunctionToZh[mdName]}**`)
     }
     await writeFile(writePath, readContent)
+    await writeFile(readPath, oldReadContent)
   })
 
   const enFunctionToZhKeys = Object.keys(enFunctionToZh)

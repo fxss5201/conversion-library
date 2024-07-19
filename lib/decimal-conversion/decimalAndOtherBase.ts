@@ -7,9 +7,9 @@ import { getMapNumberToString, getMapStringToNumber } from "./utils"
  * 
  * @group decimal-conversion
  *
- * @param num - Enter a value of number type
- * @param base - Target base
- * @returns Return the corresponding string
+ * @param num - [en:Enter a value of number type][zh:输入十进制数值]
+ * @param base - [en:Target base][zh:目标进制]
+ * @returns [en:Return the corresponding string][zh:返回目标进制字符串]
  * 
  * @example
  * ```ts
@@ -38,9 +38,9 @@ export const tenToOther = decimalToOtherBase
  * 
  * @group decimal-conversion
  *
- * @param str - Enter a value of string type
- * @param base - Current base
- * @returns Return the corresponding number
+ * @param str - [en:Enter a value of string type][zh:带转换的字符串]
+ * @param base - [en:Current base][zh:带转换的字符串的进制]
+ * @returns [en:Return the corresponding number][zh:输出十进制数值]
  * 
  * @example
  * ```ts

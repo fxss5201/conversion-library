@@ -5,8 +5,8 @@
  * 
  * @group decimal-conversion
  *
- * @param num - Enter a value of number type
- * @returns Return the corresponding binary
+ * @param num - [en:Enter a value of number type][zh:输入十进制数值]
+ * @returns [en:Return the corresponding binary][zh:返回二进制]
  * 
  * @example
  * ```ts
@@ -31,8 +31,8 @@ export const tenToTwo = decimalToBinary
  * 
  * @group decimal-conversion
  * 
- * @param str - Enter a value of string type
- * @returns Return the corresponding number
+ * @param str - [en:Enter a value of string type][zh:输入二进制字符串]
+ * @returns [en:Return the corresponding number][zh:输出十进制数值]
  * 
  * @example
  * ```ts

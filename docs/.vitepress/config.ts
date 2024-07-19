@@ -51,11 +51,6 @@ export default defineConfig({
         socialLinks: [
           { icon: 'github', link: 'https://github.com/fxss5201/conversion-library' },
         ],
-    
-        editLink: {
-          pattern: 'https://github.com/fxss5201/conversion-library/edit/main/docs/:path',
-          text: '在 GitHub 上编辑此页',
-        },
 
         lastUpdated: {
           text: '最后更新于',
@@ -112,10 +107,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fxss5201/conversion-library' },
     ],
-
-    editLink: {
-      pattern: 'https://github.com/fxss5201/conversion-library/edit/main/docs/:path',
-    },
     
     footer: {
       message: 'Released under the <a href="https://github.com/fxss5201/conversion-library/blob/main/LICENSE">MIT License</a>.',
