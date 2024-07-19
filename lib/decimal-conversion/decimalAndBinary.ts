@@ -1,5 +1,5 @@
 /**
- * **decimalToBinary**
+ * **[en:decimalToBinary][zh:十进制转二进制]**
  * 
  * > alias：[`tenToTwo`](tenToTwo)
  * 
@@ -25,7 +25,7 @@ export function decimalToBinary (num: number): string {
 export const tenToTwo = decimalToBinary
 
 /**
- * **binaryToDecimal**
+ * **[en:binaryToDecimal][zh:二进制转十进制]**
  * 
  * > alias：[`twoToTen`](twoToTen)
  * 

@@ -4,7 +4,6 @@ import { writeFile, readdir, readFile, mkdir } from 'fs/promises'
 import path from 'path'
 import enToZhMd from './enToZhMd'
 import enFunctionToZh from './enFunctionToZh'
-import enAlias from './enAlias'
 import sidebar from '../docs/api/typedoc-sidebar.json'
 
 async function main () {
@@ -58,11 +57,6 @@ async function main () {
       readContent = readContent.replace(key, enToZhMd[key])
     })
     readContent = readContent.replace(mdName, enFunctionToZh[mdName])
-    if (enAlias[mdName]) {
-      readContent = readContent.replace(`**${enAlias[mdName]}**`, `**${enFunctionToZh[mdName]}**`)
-    } else {
-      readContent = readContent.replace(`**${mdName}**`, `**${enFunctionToZh[mdName]}**`)
-    }
     await writeFile(writePath, readContent)
     await writeFile(readPath, oldReadContent)
   })

@@ -1,7 +1,7 @@
 import { getMapNumberToString, getMapStringToNumber } from "./utils"
 
 /**
- * **decimalToOtherBase**
+ * **[en:decimalToOtherBase][zh:十进制转任意进制]**
  * 
  * > alias：[`tenToOther`](tenToOther)
  * 
@@ -32,7 +32,7 @@ export function decimalToOtherBase (num: number, base: number): string {
 export const tenToOther = decimalToOtherBase
 
 /**
- * **otherBaseToDecimal**
+ * **[en:otherBaseToDecimal][zh:任意进制制转十进制]**
  * 
  * > alias：[`otherToTen`](otherToTen)
  * 
