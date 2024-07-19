@@ -1,4 +1,4 @@
-[conversion-library](../index.md) / twoToTen
+[conversion-library](../globals.md) / twoToTen
 
 # 方法: twoToTen()
 
@@ -30,4 +30,4 @@ binaryToDecimal('1010') // 10
 
 ## 定义于
 
-[decimalAndBinary.ts:52](https://github.com/fxss5201/conversion-library/blob/62e199dff57fbcee5e201018ddb80c7cf1e5a7b7/lib/decimal-conversion/decimalAndBinary.ts#L52)
+[decimalAndBinary.ts:52](https://github.com/fxss5201/conversion-library/blob/9af897b733f816386974ba9caeb48523af77dce3/lib/进制转换/decimalAndBinary.ts#L52)

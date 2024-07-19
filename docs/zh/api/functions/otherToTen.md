@@ -1,4 +1,4 @@
-[conversion-library](../index.md) / otherToTen
+[conversion-library](../globals.md) / otherToTen
 
 # 方法: otherToTen()
 
@@ -34,4 +34,4 @@ decimalToOtherBase('1010', 2) // 10
 
 ## 定义于
 
-[decimalAndOtherBase.ts:93](https://github.com/fxss5201/conversion-library/blob/62e199dff57fbcee5e201018ddb80c7cf1e5a7b7/lib/decimal-conversion/decimalAndOtherBase.ts#L93)
+[decimalAndOtherBase.ts:93](https://github.com/fxss5201/conversion-library/blob/9af897b733f816386974ba9caeb48523af77dce3/lib/进制转换/decimalAndOtherBase.ts#L93)

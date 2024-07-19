@@ -32,12 +32,12 @@
     "type": "tsc",
     "build": "tsc && vite build",
     "predocs": "typedoc",
-    "docs:dev": "typedoc && npm run docsEnTozh && vitepress dev docs",
-    "docs:build": "typedoc && npm run docsEnTozh && vitepress build docs",
+    "docs:dev": "typedoc && npm run docsEnToZh && vitepress dev docs",
+    "docs:build": "typedoc && npm run docsEnToZh && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "release": "commit-and-tag-version",
     "cz": "czg",
-    "docsEnTozh": "tsx scripts/docsEnTozh.ts"
+    "docsEnToZh": "tsx scripts/docsEnToDocsZh.ts"
   },
   "commit-and-tag-version": {
     "releaseCount": 0

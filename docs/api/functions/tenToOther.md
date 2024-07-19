@@ -34,4 +34,4 @@ decimalToOtherBase(10, 2) // '1010'
 
 ## Defined in
 
-[decimalAndOtherBase.ts:46](https://github.com/fxss5201/conversion-library/blob/62e199dff57fbcee5e201018ddb80c7cf1e5a7b7/lib/decimal-conversion/decimalAndOtherBase.ts#L46)
+[decimalAndOtherBase.ts:46](https://github.com/fxss5201/conversion-library/blob/9af897b733f816386974ba9caeb48523af77dce3/lib/decimal-conversion/decimalAndOtherBase.ts#L46)
