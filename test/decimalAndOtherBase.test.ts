@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { decimalToOtherBase, tenToOther, otherBaseToDecimal, otherToTen } from './decimalAndOtherBase'
+import { decimalToOtherBase, tenToOther, otherBaseToDecimal, otherToTen } from '../lib/main'
 
 describe('decimalToOtherBase', () => {
   test(`decimalToOtherBase(10, 2)`, () => {
@@ -27,16 +27,18 @@ describe('decimalToOtherBase', () => {
   })
 })
 
+test(`tenToOther(10, 2)`, () => {
+  expect(tenToOther(10, 2)).toBe('1010')
+})
+
 describe('otherBaseToDecimal', () => {
   test(`otherBaseToDecimal('1010', 2)`, () => {
     expect(otherBaseToDecimal('1010', 2)).toBe(10)
   })
 
-
   test(`otherBaseToDecimal('36', 8)`, () => {
     expect(otherBaseToDecimal('36', 8)).toBe(30)
   })
-
 
   test(`otherBaseToDecimal('1e', 16)`, () => {
     expect(otherBaseToDecimal('1e', 16)).toBe(30)
@@ -53,4 +55,8 @@ describe('otherBaseToDecimal', () => {
   test(`otherBaseToDecimal('2a', 38)`, () => {
     expect(otherBaseToDecimal('2a', 38)).toBe(NaN)
   })
+})
+
+test(`otherToTen('1010', 2)`, () => {
+  expect(otherToTen('1010', 2)).toBe(10)
 })

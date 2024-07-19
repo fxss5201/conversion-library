@@ -6,7 +6,7 @@
 npm i conversion-library
 ```
 
-[conversion library](https://fxss5201.github.io/conversion-library/)
+[转换库](https://fxss5201.github.io/conversion-library/zh/)
 
 ```ts
 import { tenToTwo } from 'conversion-library'

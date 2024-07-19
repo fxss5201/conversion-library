@@ -1,6 +1,6 @@
-[conversion-library](../globals.md) / binaryToDecimal
+[conversion-library](../index.md) / binaryToDecimal
 
-# Function: binaryToDecimal()
+# 方法: binaryToDecimal()
 
 ```ts
 function binaryToDecimal(str: string): number
@@ -8,26 +8,26 @@ function binaryToDecimal(str: string): number
 
 binary to decimal
 
-> alias：[`twoToTen`](twoToTen)
+> 别名：[`twoToTen`](twoToTen)
 
-## Parameters
+## 参数
 
 • **str**: `string`
 
 Enter a value of string type
 
-## Returns
+## 返回
 
 `number`
 
 Return the corresponding number
 
-## Example
+## 例子
 
 ```ts
 binaryToDecimal('1010') // 10
 ```
 
-## Defined in
+## 定义于
 
 [decimalAndBinary.ts:42](https://github.com/fxss5201/conversion-library/blob/62e199dff57fbcee5e201018ddb80c7cf1e5a7b7/lib/decimal-conversion/decimalAndBinary.ts#L42)

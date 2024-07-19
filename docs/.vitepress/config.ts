@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import typedocSidebar from '../api/typedoc-sidebar.json'
+import typedocZhSidebar from '../zh/api/typedoc-sidebar.json'
 
 const base = '/conversion-library/'
 
@@ -21,11 +22,14 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/zh/' },
           { text: '指南', link: '/zh/guide/' },
-          { text: 'API', link: '/zh/api/' }
+          { text: 'API', link: '/zh/api/globals' }
         ],
 
         sidebar: [
-          { text: '进制转换', link: '/zh/api/decimal-conversion' }
+          {
+            text: 'API',
+            items: typedocZhSidebar,
+          },
         ],
       }
     }
@@ -35,7 +39,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'guide', link: '/guide/' },
-      { text: 'API', link: '/api/' }
+      { text: 'API', link: '/api/globals' }
     ],
 
     sidebar: [

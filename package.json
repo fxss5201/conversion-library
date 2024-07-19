@@ -4,8 +4,8 @@
   "private": false,
   "license": "MIT",
   "keywords": [
-    "cache",
-    "axios-cache"
+    "conversion",
+    "decimal-conversion"
   ],
   "description": "conversion library",
   "author": "fxss5201",
@@ -32,22 +32,26 @@
     "type": "tsc",
     "build": "tsc && vite build",
     "predocs": "typedoc",
-    "docs:dev": "typedoc && vitepress dev docs",
-    "docs:build": "typedoc && vitepress build docs",
+    "docs:dev": "typedoc && npm run docsEnTozh && vitepress dev docs",
+    "docs:build": "typedoc && npm run docsEnTozh && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "release": "commit-and-tag-version",
-    "cz": "czg"
+    "cz": "czg",
+    "docsEnTozh": "tsx scripts/docsEnTozh.ts"
   },
   "commit-and-tag-version": {
     "releaseCount": 0
   },
   "devDependencies": {
+    "@types/node": "^20.14.11",
     "@vitest/coverage-v8": "^2.0.3",
     "@vitest/ui": "^2.0.3",
     "commit-and-tag-version": "^12.4.1",
+    "consola": "^3.2.3",
     "coveralls": "^3.1.1",
     "cz-git": "^1.9.3",
     "czg": "^1.9.3",
+    "tsx": "^4.16.2",
     "typedoc": "^0.26.4",
     "typedoc-plugin-markdown": "^4.2.1",
     "typedoc-vitepress-theme": "^1.0.1",

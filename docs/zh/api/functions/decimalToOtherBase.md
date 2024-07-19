@@ -1,6 +1,6 @@
-[conversion-library](../globals.md) / decimalToOtherBase
+[conversion-library](../index.md) / decimalToOtherBase
 
-# Function: decimalToOtherBase()
+# 方法: decimalToOtherBase()
 
 ```ts
 function decimalToOtherBase(num: number, base: number): string
@@ -8,9 +8,9 @@ function decimalToOtherBase(num: number, base: number): string
 
 decimal to other base
 
-> alias：[`tenToOther`](tenToOther)
+> 别名：[`tenToOther`](tenToOther)
 
-## Parameters
+## 参数
 
 • **num**: `number`
 
@@ -20,18 +20,18 @@ Enter a value of number type
 
 Target base
 
-## Returns
+## 返回
 
 `string`
 
 Return the corresponding string
 
-## Example
+## 例子
 
 ```ts
 decimalToOtherBase(10, 2) // '1010'
 ```
 
-## Defined in
+## 定义于
 
 [decimalAndOtherBase.ts:19](https://github.com/fxss5201/conversion-library/blob/62e199dff57fbcee5e201018ddb80c7cf1e5a7b7/lib/decimal-conversion/decimalAndOtherBase.ts#L19)

@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { decimalToBinary, tenToTwo, binaryToDecimal, twoToTen } from './decimalAndBinary'
+import { decimalToBinary, tenToTwo, binaryToDecimal, twoToTen } from '../lib/main'
 
 describe('decimalToBinary', () => {
   test(`10 to '1010'`, () => {

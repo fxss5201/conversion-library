@@ -12,12 +12,12 @@ hero:
       link: /zh/guide/
     - theme: alt
       text: API
-      link: /zh/api/
+      link: /zh/api/globals
 
 features:
   - title: 进制转换
     details: 二进制、八进制、十进制等36进制内之间的转换
-    link: 
+    link: /zh/api/globals.html#decimal-conversion
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
