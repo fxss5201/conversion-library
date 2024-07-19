@@ -1,30 +1,38 @@
 import { type DefaultTheme } from 'vitepress'
 import { consola } from 'consola'
-import { writeFile, readdir, readFile, copyFile, constants } from 'fs/promises'
+import { writeFile, readdir, readFile } from 'fs/promises'
 import path from 'path'
 import enToZhMd from './enToZhMd'
 import enFunctionToZh from './enFunctionToZh'
+import enAlias from './enAlias'
 import sidebar from '../docs/api/typedoc-sidebar.json'
 
 async function main () {
   const docsEnPath = path.resolve(path.resolve(), 'docs/api/functions')
   const enMdList = await readdir(docsEnPath)
   const docsZhPath = path.resolve(path.resolve(), 'docs/zh/api/functions')
-  const zhMdList = await readdir(docsZhPath)
-  const needCopyList: string[] = []
-  enMdList.forEach(item => {
-    if (!zhMdList.includes(item)) {
-      needCopyList.push(item)
-    }
-  })
-  needCopyList.forEach(async item => {
+  // const zhMdList = await readdir(docsZhPath)
+  // const needCopyList: string[] = []
+  // enMdList.forEach(item => {
+  //   if (!zhMdList.includes(item)) {
+  //     needCopyList.push(item)
+  //   }
+  // })
+  const enToZhMdKeys = Object.keys(enToZhMd)
+  enMdList.forEach(async item => {
     const readPath = path.resolve(docsEnPath, item)
     const writePath = path.resolve(docsZhPath, item)
     let readContent = await readFile(readPath, { encoding: 'utf-8' })
-    const enToZhMdKeys = Object.keys(enToZhMd)
+    const mdName = item.split('.')[0]
     enToZhMdKeys.forEach(key => {
       readContent = readContent.replace(key, enToZhMd[key])
     })
+    readContent = readContent.replace(mdName, enFunctionToZh[mdName])
+    if (enAlias[mdName]) {
+      readContent = readContent.replace(`**${enAlias[mdName]}**`, `**${enFunctionToZh[mdName]}**`)
+    } else {
+      readContent = readContent.replace(`**${mdName}**`, `**${enFunctionToZh[mdName]}**`)
+    }
     await writeFile(writePath, readContent)
   })
 

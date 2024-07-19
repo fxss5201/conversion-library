@@ -1,7 +1,7 @@
 import { getMapNumberToString, getMapStringToNumber } from "./utils"
 
 /**
- * decimal to other base
+ * **decimalToOtherBase**
  * 
  * > alias：[`tenToOther`](tenToOther)
  * 
@@ -29,24 +29,10 @@ export function decimalToOtherBase (num: number, base: number): string {
   return res
 }
 
-/**
- * decimal to other base
- * 
- * @group decimal-conversion
- *
- * @param num - Enter a value of number type
- * @param base - Enter a value of number type
- * @returns Return the corresponding string
- * 
- * @example
- * ```ts
- * tenToOther(10, 2) // '1010'
- * ```
- */
 export const tenToOther = decimalToOtherBase
 
 /**
- * other base to decimal
+ * **otherBaseToDecimal**
  * 
  * > alias：[`otherToTen`](otherToTen)
  * 
@@ -76,18 +62,4 @@ export function otherBaseToDecimal (str: string, base: number): number {
   return res
 }
 
-/**
- * other base to decimal
- * 
- * @group decimal-conversion
- *
- * @param str - Enter a value of string type
- * @param base - Enter a value of number type
- * @returns Return the corresponding number
- * 
- * @example
- * ```ts
- * otherToTen('1010', 2) // 10
- * ```
- */
 export const otherToTen = otherBaseToDecimal

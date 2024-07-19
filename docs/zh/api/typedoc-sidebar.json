@@ -28,11 +28,11 @@
         "link": "/zh/api/functions/tenToOther.md"
       },
       {
-        "text": "二进制转十进制",
+        "text": "十进制转二进制",
         "link": "/zh/api/functions/tenToTwo.md"
       },
       {
-        "text": "十进制转二进制",
+        "text": "二进制转十进制",
         "link": "/zh/api/functions/twoToTen.md"
       }
     ]
