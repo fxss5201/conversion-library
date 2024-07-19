@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import typedocSidebar from '../api/typedoc-sidebar.json'
 
 const base = '/conversion-library/'
 
@@ -38,7 +39,10 @@ export default defineConfig({
     ],
 
     sidebar: [
-      { text: 'decimal conversion', link: '/api/decimal-conversion' }
+      {
+        text: 'API',
+        items: typedocSidebar,
+      },
     ],
 
     socialLinks: [

@@ -1,0 +1,16 @@
+{
+  "plugin": ["typedoc-plugin-markdown", "typedoc-vitepress-theme"],
+  "entryPoints": ["./lib/main.ts"],
+  "out": "./docs/api",
+  "docsRoot": "./docs",
+  "outputFileStrategy": "members",
+  "sidebar": {
+    "autoConfiguration": true,
+    "format": "vitepress",
+    "pretty": false,
+    "collapsed": true
+  },
+  "useCodeBlocks": true,
+  "expandObjects": true,
+  "expandParameters": true
+}
