@@ -1,13 +1,13 @@
 /**
- * decimal to other base
+ * **[en:decimalToOtherBase][zh:十进制转任意进制]**
  *
  * > alias：[`tenToOther`](tenToOther)
  *
  * @group decimal-conversion
  *
- * @param num - Enter a value of number type
- * @param base - Target base
- * @returns Return the corresponding string
+ * @param num - [en:Enter a value of number type][zh:输入十进制数值]
+ * @param base - [en:Target base][zh:目标进制]
+ * @returns [en:Return the corresponding string][zh:返回目标进制字符串]
  *
  * @example
  * ```ts
@@ -15,31 +15,17 @@
  * ```
  */
 export declare function decimalToOtherBase(num: number, base: number): string;
-/**
- * decimal to other base
- *
- * @group decimal-conversion
- *
- * @param num - Enter a value of number type
- * @param base - Enter a value of number type
- * @returns Return the corresponding string
- *
- * @example
- * ```ts
- * tenToOther(10, 2) // '1010'
- * ```
- */
 export declare const tenToOther: typeof decimalToOtherBase;
 /**
- * other base to decimal
+ * **[en:otherBaseToDecimal][zh:任意进制制转十进制]**
  *
  * > alias：[`otherToTen`](otherToTen)
  *
  * @group decimal-conversion
  *
- * @param str - Enter a value of string type
- * @param base - Current base
- * @returns Return the corresponding number
+ * @param str - [en:Enter a value of string type][zh:带转换的字符串]
+ * @param base - [en:Current base][zh:带转换的字符串的进制]
+ * @returns [en:Return the corresponding number][zh:输出十进制数值]
  *
  * @example
  * ```ts
@@ -47,18 +33,4 @@ export declare const tenToOther: typeof decimalToOtherBase;
  * ```
  */
 export declare function otherBaseToDecimal(str: string, base: number): number;
-/**
- * other base to decimal
- *
- * @group decimal-conversion
- *
- * @param str - Enter a value of string type
- * @param base - Enter a value of number type
- * @returns Return the corresponding number
- *
- * @example
- * ```ts
- * otherToTen('1010', 2) // 10
- * ```
- */
 export declare const otherToTen: typeof otherBaseToDecimal;

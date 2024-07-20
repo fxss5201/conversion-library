@@ -18,9 +18,8 @@ features:
   - title: Decimal conversion
     details: Conversion between 36 base systems such as binary, octal, decimal, etc
     link: /api/globals.html#decimal-conversion
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Data Structure
+    details: Data Structure, example as arrayToListNode
+    link: /api/globals.html#data-structure
 ---
 

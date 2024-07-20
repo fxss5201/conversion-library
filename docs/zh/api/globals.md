@@ -1,5 +1,10 @@
 # conversion-library
 
+## 数据结构转换
+
+- [链表](classes/ListNode.md)
+- [数组转链表](functions/arrayToListNode.md)
+
 ## 进制转换
 
 - [二进制转十进制](functions/binaryToDecimal.md)

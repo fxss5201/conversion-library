@@ -1,5 +1,19 @@
 [
   {
+    "text": "数据结构转换",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "链表",
+        "link": "/zh/api/classes/ListNode.md"
+      },
+      {
+        "text": "数组转链表",
+        "link": "/zh/api/functions/arrayToListNode.md"
+      }
+    ]
+  },
+  {
     "text": "进制转换",
     "collapsed": true,
     "items": [

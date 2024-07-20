@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { decimalToOtherBase, tenToOther, otherBaseToDecimal, otherToTen } from '../lib/main'
+import { decimalToOtherBase, tenToOther, otherBaseToDecimal, otherToTen } from '../../lib/main'
 
 describe('decimalToOtherBase', () => {
   test(`decimalToOtherBase(10, 2)`, () => {

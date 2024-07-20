@@ -17,9 +17,8 @@ hero:
 features:
   - title: 进制转换
     details: 二进制、八进制、十进制等36进制内之间的转换
-    link: /zh/api/globals.html#decimal-conversion
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /zh/api/globals.html#进制转换
+  - title: 数据结构转换
+    details: 数据结构转换，例如数组转链表
+    link: /zh/api/globals.html#数据结构转换
 ---
