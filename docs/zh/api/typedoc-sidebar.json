@@ -22,12 +22,24 @@
         "link": "/zh/api/functions/binaryToDecimal.md"
       },
       {
+        "text": "二进制转八进制",
+        "link": "/zh/api/functions/binaryToOctal.md"
+      },
+      {
         "text": "十进制转二进制",
         "link": "/zh/api/functions/decimalToBinary.md"
       },
       {
         "text": "十进制转任意进制",
         "link": "/zh/api/functions/decimalToOtherBase.md"
+      },
+      {
+        "text": "八进制转二进制",
+        "link": "/zh/api/functions/eightToTwo.md"
+      },
+      {
+        "text": "八进制转二进制",
+        "link": "/zh/api/functions/octalToBinary.md"
       },
       {
         "text": "任意进制制转十进制",
@@ -44,6 +56,10 @@
       {
         "text": "十进制转二进制",
         "link": "/zh/api/functions/tenToTwo.md"
+      },
+      {
+        "text": "二进制转八进制",
+        "link": "/zh/api/functions/twoToEight.md"
       },
       {
         "text": "二进制转十进制",

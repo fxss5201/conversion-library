@@ -3,4 +3,6 @@ export default {
   'twoToTen': 'binaryToDecimal',
   'tenToOther': 'decimalToOtherBase',
   'otherToTen': 'otherBaseToDecimal',
+  'eightToTwo': 'octalToBinary',
+  'twoToEight': 'binaryToOctal',
 }

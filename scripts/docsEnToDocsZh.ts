@@ -83,7 +83,7 @@ async function changeMd (type: string) {
     }
     const mdName = item.split('.')[0]
     enToZhMdKeys.forEach(key => {
-      readContent = readContent.replace(key, enToZhMd[key])
+      readContent = readContent.replace(new RegExp(key, 'g'), enToZhMd[key])
     })
     readContent = readContent.replace(mdName, enFunctionToZh[mdName])
     await writeFile(writePath, readContent)

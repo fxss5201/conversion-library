@@ -1,4 +1,4 @@
-export function leftFillZero (str: string, length: number): string {
+export function leftPadZero (str: string, length: number): string {
   return str.padStart(length, '0')
 }
 

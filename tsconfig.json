@@ -23,6 +23,5 @@
     // "declarationDir": "types"
   },
   "include": ["src"],
-  // "include": ["lib"],
-  // "exclude": ["**/*.test.ts"]
+  // "include": ["lib"]
 }

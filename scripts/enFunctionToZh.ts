@@ -8,6 +8,10 @@ export default {
   'twoToTen': '二进制转十进制',
   'tenToOther': '十进制转任意进制',
   'otherToTen': '任意进制制转十进制',
+  'octalToBinary': '八进制转二进制',
+  'eightToTwo': '八进制转二进制',
+  'binaryToOctal': '二进制转八进制',
+  'twoToEight': '二进制转八进制',
 
   'data-structure': '数据结构转换',
   'ListNode': '链表',
