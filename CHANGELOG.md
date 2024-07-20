@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.5](https://github.com/fxss5201/conversion-library/compare/v0.0.4...v0.0.5) (2024-07-20)
+
+
+### Features
+
+* add binaryAndOctal ([998368d](https://github.com/fxss5201/conversion-library/commit/998368d03178d9118c8ee569588b82a142793737))
+
 ## [0.0.4](https://github.com/fxss5201/conversion-library/compare/v0.0.3...v0.0.4) (2024-07-20)
 
 
