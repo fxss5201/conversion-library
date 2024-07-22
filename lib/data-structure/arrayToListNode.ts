@@ -1,6 +1,8 @@
 /**
  * **[en:ListNode][zh:链表]**
  * 
+ * <Badge type="tip" text="version: v0.0.4+" />
+ * 
  * ```ts
  * class ListNode<T> {
  *   value: T;
@@ -31,6 +33,8 @@ export class ListNode<T>{
 
 /**
  * **[en:arrayToListNode][zh:数组转链表]**
+ * 
+ * <Badge type="tip" text="version: v0.0.4+" />
  * 
  * @group data-structure
  *
