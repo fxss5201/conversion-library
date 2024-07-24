@@ -29,14 +29,17 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest --ui",
-    "type": "tsc",
-    "build": "tsc && vite build",
+    "build": "npm run creatType && tsc && vite build",
     "predocs": "typedoc",
     "docs:dev": "typedoc && npm run docsEnToZh && vitepress dev docs",
     "docs:build": "typedoc && npm run docsEnToZh && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "release": "commit-and-tag-version",
     "cz": "czg",
+    "creatType": "npm run pretype && npm run type && npm run posttype",
+    "pretype": "tsx scripts/pretype.ts",
+    "posttype": "tsx scripts/posttype.ts",
+    "type": "tsc",
     "docsEnToZh": "tsx scripts/docsEnToDocsZh.ts"
   },
   "commit-and-tag-version": {
