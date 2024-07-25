@@ -4,6 +4,7 @@
 
 - [ListNode](classes/ListNode.md)
 - [arrayToListNode](functions/arrayToListNode.md)
+- [listNodeToArray](functions/listNodeToArray.md)
 
 ## decimal-conversion
 

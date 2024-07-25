@@ -60,3 +60,31 @@ export function arrayToListNode<T>(arr: T[]): ListNode<T> | null {
   })
   return res
 }
+
+/**
+ * **[en:listNodeToArray][zh:链表转数组]**
+ * 
+ * <Badge type="tip" text="version: v0.0.6+" />
+ * 
+ * @group data-structure
+ *
+ * @param arr - [en:Enter ListNode or null][zh:输入链表或者 `null`]
+ * @returns [en:Return array][zh:返回数组]
+ * 
+ * @example
+ * ```ts
+ * listNodeToArray({ value: { name: 'aaa', age: 1 }, next: { value: { name: 'bbb', age: 2 }, next: null } })
+ * // [{ name: 'aaa', age: 1 }, { name: 'bbb', age: 2 }]
+ * ```
+ */
+export function listNodeToArray<T>(node: ListNode<T> | null): T[] {
+  const res: T[] = []
+  if (node) {
+    res.push(node.value)
+    while (node?.next) {
+      node = node.next
+      res.push(node.value)
+    }
+  }
+  return res
+}

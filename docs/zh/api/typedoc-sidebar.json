@@ -10,6 +10,10 @@
       {
         "text": "数组转链表",
         "link": "/zh/api/functions/arrayToListNode.md"
+      },
+      {
+        "text": "链表转数组",
+        "link": "/zh/api/functions/listNodeToArray.md"
       }
     ]
   },

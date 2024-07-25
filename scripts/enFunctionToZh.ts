@@ -16,4 +16,5 @@ export default {
   'data-structure': '数据结构转换',
   'ListNode': '链表',
   'arrayToListNode': '数组转链表',
+  'listNodeToArray': '链表转数组',
 }
