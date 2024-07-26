@@ -1,6 +1,7 @@
 export const titleToZh = {
   'decimal-conversion': '进制转换',
   'data-structure': '数据结构转换',
+  'color-conversion': '颜色转换',
 }
 
 export const functionToZh = {
@@ -20,4 +21,11 @@ export const functionToZh = {
   'ListNode': '链表',
   'arrayToListNode': '数组转链表',
   'listNodeToArray': '链表转数组',
+  
+  'hexRrggbbToHexRgb': '十六进制色值六位转三位',
+  'hexRgbToHexRrggbb': '十六进制色值三位转六位',
+  'hexRgbsToRgbArray': '十六进制色值转RGB数组',
+  'hexRgbsToRgb': '十六进制色值转RGB',
+  'rgbToRgbArray': 'RGB转RGB数组',
+  'rgbToHexRgbs': 'RGB转十六进制色值',
 }

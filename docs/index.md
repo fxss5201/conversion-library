@@ -21,5 +21,8 @@ features:
   - title: Data Structure
     details: Data Structure, example as arrayToListNode
     link: /api/globals.html#data-structure
+  - title: Color conversion
+    details: Color conversion, example as hex to rgb
+    link: /api/globals.html#color-conversion
 ---
 

@@ -1,5 +1,14 @@
 # conversion-library
 
+## 颜色转换
+
+- [十六进制色值三位转六位](functions/hexRgbToHexRrggbb.md)
+- [十六进制色值转RGB](functions/hexRgbsToRgb.md)
+- [十六进制色值转RGB数组](functions/hexRgbsToRgbArray.md)
+- [十六进制色值六位转三位](functions/hexRrggbbToHexRgb.md)
+- [RGB转十六进制色值](functions/rgbToHexRgbs.md)
+- [RGB转RGB数组](functions/rgbToRgbArray.md)
+
 ## 数据结构转换
 
 - [链表](classes/ListNode.md)

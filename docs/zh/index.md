@@ -21,4 +21,7 @@ features:
   - title: 数据结构转换
     details: 数据结构转换，例如数组转链表
     link: /zh/api/globals.html#数据结构转换
+  - title: 颜色转换
+    details: 颜色转换，例如十六进制色值转rgb
+    link: /zh/api/globals.html#颜色转换
 ---

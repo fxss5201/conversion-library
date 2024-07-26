@@ -1,5 +1,35 @@
 [
   {
+    "text": "颜色转换",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "十六进制色值三位转六位",
+        "link": "/zh/api/functions/hexRgbToHexRrggbb.md"
+      },
+      {
+        "text": "十六进制色值转RGB",
+        "link": "/zh/api/functions/hexRgbsToRgb.md"
+      },
+      {
+        "text": "十六进制色值转RGB数组",
+        "link": "/zh/api/functions/hexRgbsToRgbArray.md"
+      },
+      {
+        "text": "十六进制色值六位转三位",
+        "link": "/zh/api/functions/hexRrggbbToHexRgb.md"
+      },
+      {
+        "text": "RGB转十六进制色值",
+        "link": "/zh/api/functions/rgbToHexRgbs.md"
+      },
+      {
+        "text": "RGB转RGB数组",
+        "link": "/zh/api/functions/rgbToRgbArray.md"
+      }
+    ]
+  },
+  {
     "text": "数据结构转换",
     "collapsed": true,
     "items": [

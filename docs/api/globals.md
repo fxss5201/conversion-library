@@ -1,5 +1,14 @@
 # conversion-library
 
+## color-conversion
+
+- [hexRgbToHexRrggbb](functions/hexRgbToHexRrggbb.md)
+- [hexRgbsToRgb](functions/hexRgbsToRgb.md)
+- [hexRgbsToRgbArray](functions/hexRgbsToRgbArray.md)
+- [hexRrggbbToHexRgb](functions/hexRrggbbToHexRgb.md)
+- [rgbToHexRgbs](functions/rgbToHexRgbs.md)
+- [rgbToRgbArray](functions/rgbToRgbArray.md)
+
 ## data-structure
 
 - [ListNode](classes/ListNode.md)
