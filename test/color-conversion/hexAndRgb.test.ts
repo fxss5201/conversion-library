@@ -1,17 +1,38 @@
-import { expect, test } from 'vitest'
+import { describe, expect, test } from 'vitest'
 import { hexRrggbbToHexRgb, hexRgbToHexRrggbb, hexRgbsToRgbArray, hexRgbsToRgb, rgbToRgbArray, rgbToHexRgbs } from '../../lib/main'
 
-test(`hexRrggbbToHexRgb`, () => {
-  expect(hexRrggbbToHexRgb('#ff0000')).toBe('#f00')
+describe('hexRrggbbToHexRgb', () => {
+  test(`hexRrggbbToHexRgb`, () => {
+    expect(hexRrggbbToHexRgb('#ff0000')).toBe('#f00')
+  })
+
+  test(`hexRrggbbToHexRgb`, () => {
+    expect(hexRrggbbToHexRgb('#ff0f00')).toBe('#ff0f00')
+  })
+
+  test(`hexRrggbbToHexRgb error`, () => {
+    expect(() => hexRrggbbToHexRgb('#ff00000')).toThrowError('hexRrggbb format error')
+  })
 })
 
-test(`hexRgbToHexRrggbb`, () => {
-  expect(hexRgbToHexRrggbb('#f00')).toBe('#ff0000')
+describe('hexRgbToHexRrggbb', () => {
+  test(`hexRgbToHexRrggbb`, () => {
+    expect(hexRgbToHexRrggbb('#f00')).toBe('#ff0000')
+  })
+
+  test(`hexRgbToHexRrggbb error`, () => {
+    expect(() => hexRgbToHexRrggbb('#f000')).toThrowError('hexRgb format error')
+  })
 })
 
-console.log(hexRgbsToRgbArray('#f00'))
-test(`hexRgbsToRgbArray`, () => {
-  expect(hexRgbsToRgbArray('#f00')).toEqual([255, 0, 0])
+describe('hexRgbsToRgbArray', () => {
+  test(`hexRgbsToRgbArray`, () => {
+    expect(hexRgbsToRgbArray('#f00')).toEqual([255, 0, 0])
+  })
+
+  test(`hexRgbsToRgbArray error`, () => {
+    expect(() => hexRgbsToRgbArray('#f000')).toThrowError('hexRgbs format error')
+  })
 })
 
 test(`hexRgbsToRgb`, () => {
