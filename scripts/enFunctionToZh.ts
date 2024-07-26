@@ -1,5 +1,9 @@
-export default {
+export const titleToZh = {
   'decimal-conversion': '进制转换',
+  'data-structure': '数据结构转换',
+}
+
+export const functionToZh = {
   'binaryToDecimal': '二进制转十进制',
   'decimalToBinary': '十进制转二进制',
   'decimalToOtherBase': '十进制转任意进制',
@@ -13,7 +17,6 @@ export default {
   'binaryToOctal': '二进制转八进制',
   'twoToEight': '二进制转八进制',
 
-  'data-structure': '数据结构转换',
   'ListNode': '链表',
   'arrayToListNode': '数组转链表',
   'listNodeToArray': '链表转数组',

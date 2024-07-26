@@ -3,7 +3,7 @@ import { consola } from 'consola'
 import { writeFile, readdir, readFile, mkdir } from 'fs/promises'
 import path from 'path'
 import enToZhMd from './enToZhMd'
-import enFunctionToZh from './enFunctionToZh'
+import { titleToZh, functionToZh } from './enFunctionToZh'
 import functionAlias from './functionAlias'
 import sidebar from '../docs/api/typedoc-sidebar.json'
 
@@ -13,14 +13,17 @@ async function main () {
   await changeMd('functions')
   await changeMd('classes')
   
-  const enFunctionToZhKeys = Object.keys(enFunctionToZh)
+  const titleToZhKeys = Object.keys(titleToZh)
+  const functionToZhKeys = Object.keys(functionToZh)
 
   const globalsReadPath = path.resolve(path.resolve(), 'docs/api/globals.md')
   const globalswritePath = path.resolve(path.resolve(), 'docs/zh/api/globals.md')
   let globalsReadContent = await readFile(globalsReadPath, { encoding: 'utf-8' })
-  enFunctionToZhKeys.forEach(key => {
-    globalsReadContent = globalsReadContent.replace(`## ${key}`, `## ${enFunctionToZh[key]}`)
-    globalsReadContent = globalsReadContent.replace(`[${key}]`, `[${enFunctionToZh[key]}]`)
+  titleToZhKeys.forEach(key => {
+    globalsReadContent = globalsReadContent.replace(`## ${key}`, `## ${titleToZh[key]}`)
+  })
+  functionToZhKeys.forEach(key => {
+    globalsReadContent = globalsReadContent.replace(`[${key}]`, `[${functionToZh[key]}]`)
   })
   await writeFile(globalswritePath, globalsReadContent)
 
@@ -29,8 +32,11 @@ async function main () {
       if (item.link) {
         item.link = `/zh${item.link}`
       }
-      if (enFunctionToZhKeys.includes(item.text as string)) {
-        item.text = enFunctionToZh[item.text as string]
+      if (titleToZhKeys.includes(item.text as string)) {
+        item.text = titleToZh[item.text as string]
+      }
+      if (functionToZhKeys.includes(item.text as string)) {
+        item.text = functionToZh[item.text as string]
       }
       if (item.items && item.items.length > 0) {
         changeText(item.items)
@@ -55,29 +61,17 @@ async function changeMd (type: string) {
     let oldReadContent = readContent
     while (readContent.includes('[zh:')) {
       let zhStartIndex = readContent.indexOf('[zh:')
-      let zhEndIndex = zhStartIndex
-      while (readContent[zhEndIndex] !== ']') {
-        zhEndIndex++
-      }
+      let zhEndIndex = readContent.indexOf(']', zhStartIndex + 1)
       const zhContent = readContent.slice(zhStartIndex + 4, zhEndIndex)
-      zhStartIndex--
-      while (readContent[zhStartIndex] !== '[') {
-        zhStartIndex--
-      }
+      zhStartIndex = readContent.lastIndexOf('[', zhStartIndex - 1)
       const content = readContent.slice(zhStartIndex, zhEndIndex + 1)
       readContent = readContent.replace(content, zhContent)
     }
     while (oldReadContent.includes('[en:')) {
       let enStartIndex = oldReadContent.indexOf('[en:')
-      let enEndIndex = enStartIndex
-      while (oldReadContent[enEndIndex] !== ']') {
-        enEndIndex++
-      }
+      let enEndIndex = oldReadContent.indexOf(']', enStartIndex + 1)
       const enContent = oldReadContent.slice(enStartIndex + 4, enEndIndex)
-      enEndIndex++
-      while (oldReadContent[enEndIndex] !== ']') {
-        enEndIndex++
-      }
+      enEndIndex = oldReadContent.indexOf(']', enEndIndex + 1)
       const content = oldReadContent.slice(enStartIndex, enEndIndex + 1)
       oldReadContent = oldReadContent.replace(content, enContent)
     }
@@ -85,7 +79,7 @@ async function changeMd (type: string) {
     enToZhMdKeys.forEach(key => {
       readContent = readContent.replace(new RegExp(key, 'g'), enToZhMd[key])
     })
-    readContent = readContent.replace(mdName, enFunctionToZh[mdName])
+    readContent = readContent.replace(mdName, functionToZh[mdName])
     await writeFile(writePath, readContent)
     oldReadContent = oldReadContent.replace(functionAlias[mdName], mdName)
     await writeFile(readPath, oldReadContent)
