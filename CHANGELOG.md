@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.6](https://github.com/fxss5201/conversion-library/compare/v0.0.5...v0.0.6) (2024-07-26)
+
+
+### Features
+
+* add color conversion ([f293555](https://github.com/fxss5201/conversion-library/commit/f2935555a8b4a8169ebfd7b8b136f1a699a00f14))
+* add listNodeToArray ([31071c7](https://github.com/fxss5201/conversion-library/commit/31071c7a8eaed0c2ef0d1a449d510313fd3db1ad))
+* add version ([e1d6a1c](https://github.com/fxss5201/conversion-library/commit/e1d6a1c876ccdfa4b6d63f995f4c1e20d3c407a4))
+* auto creat type ([4d35e9b](https://github.com/fxss5201/conversion-library/commit/4d35e9b67ac97654e16afcc7687649d9d4194398))
+* optimize document generation ([95172cd](https://github.com/fxss5201/conversion-library/commit/95172cd41265f4c1dd35e0f6709f2f8a160b6857))
+
 ## [0.0.5](https://github.com/fxss5201/conversion-library/compare/v0.0.4...v0.0.5) (2024-07-20)
 
 
