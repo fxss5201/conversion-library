@@ -5,9 +5,11 @@
 - [hexRgbToHexRrggbb](functions/hexRgbToHexRrggbb.md)
 - [hexRgbsToRgb](functions/hexRgbsToRgb.md)
 - [hexRgbsToRgbArray](functions/hexRgbsToRgbArray.md)
+- [hexRgbsToRgbObject](functions/hexRgbsToRgbObject.md)
 - [hexRrggbbToHexRgb](functions/hexRrggbbToHexRgb.md)
 - [rgbToHexRgbs](functions/rgbToHexRgbs.md)
 - [rgbToRgbArray](functions/rgbToRgbArray.md)
+- [rgbToRgbObject](functions/rgbToRgbObject.md)
 
 ## data-structure
 

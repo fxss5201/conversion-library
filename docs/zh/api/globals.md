@@ -2,12 +2,14 @@
 
 ## 颜色转换
 
-- [十六进制色值三位转六位](functions/hexRgbToHexRrggbb.md)
+- [十六进制色值完整写法](functions/hexRgbToHexRrggbb.md)
 - [十六进制色值转RGB](functions/hexRgbsToRgb.md)
 - [十六进制色值转RGB数组](functions/hexRgbsToRgbArray.md)
-- [十六进制色值六位转三位](functions/hexRrggbbToHexRgb.md)
+- [十六进制色值转RGB对象](functions/hexRgbsToRgbObject.md)
+- [十六进制色值简写](functions/hexRrggbbToHexRgb.md)
 - [RGB转十六进制色值](functions/rgbToHexRgbs.md)
 - [RGB转RGB数组](functions/rgbToRgbArray.md)
+- [RGB转RGB对象](functions/rgbToRgbObject.md)
 
 ## 数据结构转换
 

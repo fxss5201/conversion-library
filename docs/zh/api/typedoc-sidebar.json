@@ -4,7 +4,7 @@
     "collapsed": true,
     "items": [
       {
-        "text": "十六进制色值三位转六位",
+        "text": "十六进制色值完整写法",
         "link": "/zh/api/functions/hexRgbToHexRrggbb.md"
       },
       {
@@ -16,7 +16,11 @@
         "link": "/zh/api/functions/hexRgbsToRgbArray.md"
       },
       {
-        "text": "十六进制色值六位转三位",
+        "text": "十六进制色值转RGB对象",
+        "link": "/zh/api/functions/hexRgbsToRgbObject.md"
+      },
+      {
+        "text": "十六进制色值简写",
         "link": "/zh/api/functions/hexRrggbbToHexRgb.md"
       },
       {
@@ -26,6 +30,10 @@
       {
         "text": "RGB转RGB数组",
         "link": "/zh/api/functions/rgbToRgbArray.md"
+      },
+      {
+        "text": "RGB转RGB对象",
+        "link": "/zh/api/functions/rgbToRgbObject.md"
       }
     ]
   },

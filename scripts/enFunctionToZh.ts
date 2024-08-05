@@ -22,10 +22,12 @@ export const functionToZh = {
   'arrayToListNode': '数组转链表',
   'listNodeToArray': '链表转数组',
   
-  'hexRrggbbToHexRgb': '十六进制色值六位转三位',
-  'hexRgbToHexRrggbb': '十六进制色值三位转六位',
+  'hexRrggbbToHexRgb': '十六进制色值简写',
+  'hexRgbToHexRrggbb': '十六进制色值完整写法',
   'hexRgbsToRgbArray': '十六进制色值转RGB数组',
+  'hexRgbsToRgbObject': '十六进制色值转RGB对象',
   'hexRgbsToRgb': '十六进制色值转RGB',
   'rgbToRgbArray': 'RGB转RGB数组',
+  'rgbToRgbObject': 'RGB转RGB对象',
   'rgbToHexRgbs': 'RGB转十六进制色值',
 }
