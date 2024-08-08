@@ -61,18 +61,18 @@ async function changeMd (type: string) {
     let oldReadContent = readContent
     while (readContent.includes('[zh:')) {
       let zhStartIndex = readContent.indexOf('[zh:')
-      let zhEndIndex = readContent.indexOf(']', zhStartIndex + 1)
+      let zhEndIndex = readContent.indexOf(':]', zhStartIndex + 1)
       const zhContent = readContent.slice(zhStartIndex + 4, zhEndIndex)
-      zhStartIndex = readContent.lastIndexOf('[', zhStartIndex - 1)
-      const content = readContent.slice(zhStartIndex, zhEndIndex + 1)
+      zhStartIndex = readContent.lastIndexOf('[en:', zhStartIndex - 1)
+      const content = readContent.slice(zhStartIndex, zhEndIndex + 2)
       readContent = readContent.replace(content, zhContent)
     }
     while (oldReadContent.includes('[en:')) {
       let enStartIndex = oldReadContent.indexOf('[en:')
-      let enEndIndex = oldReadContent.indexOf(']', enStartIndex + 1)
+      let enEndIndex = oldReadContent.indexOf(':]', enStartIndex + 1)
       const enContent = oldReadContent.slice(enStartIndex + 4, enEndIndex)
-      enEndIndex = oldReadContent.indexOf(']', enEndIndex + 1)
-      const content = oldReadContent.slice(enStartIndex, enEndIndex + 1)
+      enEndIndex = oldReadContent.indexOf(':]', enEndIndex + 2)
+      const content = oldReadContent.slice(enStartIndex, enEndIndex + 2)
       oldReadContent = oldReadContent.replace(content, enContent)
     }
     const mdName = item.split('.')[0]

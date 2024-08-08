@@ -2,7 +2,7 @@ import { decimalToBinary, binaryToDecimal } from './decimalAndBinary'
 import { leftPadZero } from './utils'
 
 /**
- * **[en:octalToBinary][zh:八进制转二进制]**
+ * **[en:octalToBinary:][zh:八进制转二进制:]**
  * 
  * <Badge type="tip" text="version: v0.0.5+" />
  * 
@@ -10,8 +10,8 @@ import { leftPadZero } from './utils'
  * 
  * @group decimal-conversion
  *
- * @param octal - [en:Enter octal string][zh:输入八进制]
- * @returns [en:Return binary string][zh:返回二进制]
+ * @param octal - [en:Enter octal string:][zh:输入八进制:]
+ * @returns [en:Return binary string:][zh:返回二进制:]
  * 
  * @example
  * ```ts
@@ -30,7 +30,7 @@ export function octalToBinary (octal: string): string {
 export const eightToTwo = octalToBinary
 
 /**
- * **[en:binaryToOctal][zh:二进制转八进制]**
+ * **[en:binaryToOctal:][zh:二进制转八进制:]**
  * 
  * <Badge type="tip" text="version: v0.0.5+" />
  * 
@@ -38,8 +38,8 @@ export const eightToTwo = octalToBinary
  * 
  * @group decimal-conversion
  *
- * @param binary - [en:Enter binary string][zh:输入二进制]
- * @returns [en:Return octal string][zh:返回八进制]
+ * @param binary - [en:Enter binary string:][zh:输入二进制:]
+ * @returns [en:Return octal string:][zh:返回八进制:]
  * 
  * @example
  * ```ts
