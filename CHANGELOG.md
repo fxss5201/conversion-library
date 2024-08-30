@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.7](https://github.com/fxss5201/conversion-library/compare/v0.0.6...v0.0.7) (2024-08-30)
+
+
+### Features
+
+* add elTableRowSpan ([f2b8eaf](https://github.com/fxss5201/conversion-library/commit/f2b8eafb5887a4ee5d475d346942464df5c3b5c4))
+* add/update types ([544e259](https://github.com/fxss5201/conversion-library/commit/544e259c2f1b4398f93af39977257e8e5aa2c317))
+* change search ([0150b88](https://github.com/fxss5201/conversion-library/commit/0150b880c0aa30c52988781c50fd08f964419ef2))
+* update document generation and parsing ([bdca68b](https://github.com/fxss5201/conversion-library/commit/bdca68bc9a7f3780d42ba3a8bbb36a6ac3f03635))
+* update hexAndRgb ([c77c9be](https://github.com/fxss5201/conversion-library/commit/c77c9beb117fc6987d3ec1db23adebcd84956d1a))
+
 ## [0.0.6](https://github.com/fxss5201/conversion-library/compare/v0.0.5...v0.0.6) (2024-07-26)
 
 
