@@ -46,6 +46,7 @@
     "releaseCount": 0
   },
   "devDependencies": {
+    "@types/lodash.clonedeep": "^4.5.9",
     "@types/node": "^20.14.11",
     "@vitest/coverage-v8": "^2.0.3",
     "@vitest/ui": "^2.0.3",
@@ -70,5 +71,8 @@
     "commitizen": {
       "path": "node_modules/cz-git"
     }
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
   }
 }

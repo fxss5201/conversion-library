@@ -50,6 +50,10 @@
         "link": "/zh/api/functions/arrayToListNode.md"
       },
       {
+        "text": "Table 表格合并",
+        "link": "/zh/api/functions/elTableRowSpan.md"
+      },
+      {
         "text": "链表转数组",
         "link": "/zh/api/functions/listNodeToArray.md"
       }

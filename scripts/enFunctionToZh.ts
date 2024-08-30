@@ -21,6 +21,7 @@ export const functionToZh = {
   'ListNode': '链表',
   'arrayToListNode': '数组转链表',
   'listNodeToArray': '链表转数组',
+  'elTableRowSpan': 'Table 表格合并',
   
   'hexRrggbbToHexRgb': '十六进制色值简写',
   'hexRgbToHexRrggbb': '十六进制色值完整写法',

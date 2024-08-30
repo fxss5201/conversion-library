@@ -15,6 +15,7 @@
 
 - [ListNode](classes/ListNode.md)
 - [arrayToListNode](functions/arrayToListNode.md)
+- [elTableRowSpan](functions/elTableRowSpan.md)
 - [listNodeToArray](functions/listNodeToArray.md)
 
 ## decimal-conversion
