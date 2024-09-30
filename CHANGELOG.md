@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.8](https://github.com/fxss5201/conversion-library/compare/v0.0.7...v0.0.8) (2024-09-30)
+
+
+### Features
+
+* add combinationArrangement function ([26565e4](https://github.com/fxss5201/conversion-library/commit/26565e46f6584bec8227d42e8305c9b8ba1d7536))
+
 ## [0.0.7](https://github.com/fxss5201/conversion-library/compare/v0.0.6...v0.0.7) (2024-08-30)
 
 
