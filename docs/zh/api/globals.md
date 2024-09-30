@@ -15,6 +15,7 @@
 
 - [链表](classes/ListNode.md)
 - [数组转链表](functions/arrayToListNode.md)
+- [组合排列](functions/combinationArrangement.md)
 - [Table 表格合并](functions/elTableRowSpan.md)
 - [链表转数组](functions/listNodeToArray.md)
 

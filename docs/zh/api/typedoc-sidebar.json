@@ -50,6 +50,10 @@
         "link": "/zh/api/functions/arrayToListNode.md"
       },
       {
+        "text": "组合排列",
+        "link": "/zh/api/functions/combinationArrangement.md"
+      },
+      {
         "text": "Table 表格合并",
         "link": "/zh/api/functions/elTableRowSpan.md"
       },
