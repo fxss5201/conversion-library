@@ -1,5 +1,6 @@
 import { tenToOther, otherToTen } from './../decimal-conversion'
 import { leftPadZero } from './../decimal-conversion/utils'
+import isHexColor from 'validator/es/lib/isHexColor'
 
 /**
  * **[en:hexRrggbbToHexRgb:][zh:十六进制色值简写:]**
@@ -24,7 +25,7 @@ import { leftPadZero } from './../decimal-conversion/utils'
 export function hexRrggbbToHexRgb (color: string): string {
   color = color.trim()
   const colorLen = color.length
-  if ([7, 9].includes(colorLen) && color.startsWith('#')) {
+  if (isHexColor(color) && [7, 9].includes(colorLen) && color.startsWith('#')) {
     let resColor = '#'
     let flag = true
     for (let i = 0, len = Math.floor(colorLen / 2); i < len; i++) {
@@ -67,7 +68,7 @@ export function hexRrggbbToHexRgb (color: string): string {
 export function hexRgbToHexRrggbb (color: string): string {
   color = color.trim()
   const colorLen = color.length
-  if ([4, 5].includes(colorLen) && color.startsWith('#')) {
+  if (isHexColor(color) && [4, 5].includes(colorLen) && color.startsWith('#')) {
     let resColor = '#'
     for (let i = 1; i < colorLen; i++) {
       resColor = `${resColor}${color[i]}${color[i]}`
@@ -102,8 +103,7 @@ export function hexRgbToHexRrggbb (color: string): string {
  */
 export function hexRgbsToRgbArray (color: string): number[] {
   color = color.trim()
-  const colorLen = color.length
-  if ([4, 5, 7, 9].includes(colorLen) && color.startsWith('#')) {
+  if (isHexColor(color) && color.startsWith('#')) {
     color = hexRgbToHexRrggbb(color)
     const rgbList = [otherToTen(color.slice(1, 3), 16), otherToTen(color.slice(3, 5), 16), otherToTen(color.slice(5, 7), 16)]
     if (color.length === 7) {
@@ -143,8 +143,7 @@ export function hexRgbsToRgbObject (color: string): {
   a?: number
 } {
   color = color.trim()
-  const colorLen = color.length
-  if ([4, 5, 7, 9].includes(colorLen) && color.startsWith('#')) {
+  if (isHexColor(color) && color.startsWith('#')) {
     color = hexRgbToHexRrggbb(color)
     const rgbObject = {
       r: otherToTen(color.slice(1, 3), 16),
@@ -187,7 +186,7 @@ export function hexRgbsToRgbObject (color: string): {
 export function hexRgbsToRgb (color: string): string {
   color = color.trim()
   const colorLen = color.length
-  if ([4, 5, 7, 9].includes(colorLen) && color.startsWith('#')) {
+  if (isHexColor(color) && color.startsWith('#')) {
     return `${[5, 9].includes(colorLen) ? 'rgba' : 'rgb'}(${hexRgbsToRgbArray(color).join(',')})`
   } else {
     throw new Error('hexRgbs format error')
