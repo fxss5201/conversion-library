@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.9](https://github.com/fxss5201/conversion-library/compare/v0.0.8...v0.0.9) (2024-10-28)
+
+
+### Features
+
+* add isHexColor to determine colors ([53dfbfd](https://github.com/fxss5201/conversion-library/commit/53dfbfda228a2c0e2090994e67946abd08abd56e))
+
 ## [0.0.8](https://github.com/fxss5201/conversion-library/compare/v0.0.7...v0.0.8) (2024-09-30)
 
 
