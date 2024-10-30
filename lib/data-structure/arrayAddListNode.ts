@@ -1,5 +1,5 @@
 /**
- * **[en:ListNode:][zh:链表:]**
+ * **ListNode**
  * 
  * <Badge type="tip" text="version: v0.0.4+" />
  * 
@@ -13,8 +13,8 @@
  * 
  * @group data-structure
  *
- * @param value - [en:Enter value:][zh:输入值:]
- * @param next - [en:next ListNode:][zh:`next` 属性对应的 `ListNode`:]
+ * @param value - Enter value
+ * @param next - next ListNode
  * 
  * @example
  * ```ts
@@ -32,14 +32,14 @@ export class ListNode<T>{
 }
 
 /**
- * **[en:arrayToListNode:][zh:数组转链表:]**
+ * **arrayToListNode**
  * 
  * <Badge type="tip" text="version: v0.0.4+" />
  * 
  * @group data-structure
  *
- * @param arr - [en:Enter array:][zh:输入数组:]
- * @returns [en:Return ListNode or null:][zh:返回链表或者 `null`:]
+ * @param arr - Enter array
+ * @returns Return ListNode or null
  * 
  * @example
  * ```ts
@@ -62,14 +62,14 @@ export function arrayToListNode<T>(arr: T[]): ListNode<T> | null {
 }
 
 /**
- * **[en:listNodeToArray:][zh:链表转数组:]**
+ * **listNodeToArray**
  * 
  * <Badge type="tip" text="version: v0.0.6+" />
  * 
  * @group data-structure
  *
- * @param arr - [en:Enter ListNode or null:][zh:输入链表或者 `null`:]
- * @returns [en:Return array:][zh:返回数组:]
+ * @param arr - Enter ListNode or null
+ * @returns Return array
  * 
  * @example
  * ```ts

@@ -1,15 +1,15 @@
 import { getMapNumberToString, getMapStringToNumber } from "./utils"
 
 /**
- * **[en:decimalToOtherBase:][zh:十进制转任意进制:]**
+ * **decimalToOtherBase**
  * 
  * > alias：[`tenToOther`](tenToOther)
  * 
  * @group decimal-conversion
  *
- * @param num - [en:Enter a value of number type:][zh:输入十进制数值:]
- * @param base - [en:Target base:][zh:目标进制:]
- * @returns [en:Return the corresponding string:][zh:返回目标进制字符串:]
+ * @param num - Enter decimal numerical value
+ * @param base - Target base
+ * @returns Return the target base string
  * 
  * @example
  * ```ts
@@ -32,15 +32,15 @@ export function decimalToOtherBase (num: number, base: number): string {
 export const tenToOther = decimalToOtherBase
 
 /**
- * **[en:otherBaseToDecimal:][zh:任意进制制转十进制:]**
+ * **otherBaseToDecimal**
  * 
  * > alias：[`otherToTen`](otherToTen)
  * 
  * @group decimal-conversion
  *
- * @param str - [en:Enter a value of string type:][zh:带转换的字符串:]
- * @param base - [en:Current base:][zh:带转换的字符串的进制:]
- * @returns [en:Return the corresponding number:][zh:输出十进制数值:]
+ * @param str - A string with conversion
+ * @param base - Binary string to be converted
+ * @returns Return decimal value
  * 
  * @example
  * ```ts

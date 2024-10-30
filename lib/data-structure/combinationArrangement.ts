@@ -1,12 +1,12 @@
 /**
- * **[en:combinationArrangement:][zh:组合排列:]**
+ * **combinationArrangement**
  * 
  * <Badge type="tip" text="version: v0.0.8+" />
  * 
  * @group data-structure
  *
- * @param value - [en:Enter two-dimensional array:][zh:二维数组:]
- * @returns [en:combination arrangement:][zh:组合排列:]
+ * @param value - Enter two-dimensional array
+ * @returns combination arrangement
  * 
  * @example
  * ```ts

@@ -1,5 +1,13 @@
 # conversion-library
 
+## Namespaces
+
+- [changeCase](namespaces/changeCase/index.md)
+- [changeCaseKeys](namespaces/changeCaseKeys/index.md)
+- [spongeCase](namespaces/spongeCase/index.md)
+- [swapCase](namespaces/swapCase/index.md)
+- [titleCase](namespaces/titleCase/index.md)
+
 ## color-conversion
 
 - [hexRgbToHexRrggbb](functions/hexRgbToHexRrggbb.md)

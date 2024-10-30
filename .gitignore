@@ -13,8 +13,6 @@ dist-ssr
 *.local
 cache
 coverage
-functions
-classes
 types
 
 # Editor directories and files

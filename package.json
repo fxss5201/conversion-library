@@ -31,12 +31,11 @@
     "test": "vitest --ui",
     "build": "tsc && vite build",
     "predocs": "typedoc",
-    "docs:dev": "typedoc && npm run docsEnToZh && vitepress dev docs",
-    "docs:build": "typedoc && npm run docsEnToZh && vitepress build docs",
+    "docs:dev": "typedoc && vitepress dev docs",
+    "docs:build": "typedoc && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "release": "commit-and-tag-version",
-    "cz": "czg",
-    "docsEnToZh": "tsx scripts/docsEnToDocsZh.ts"
+    "cz": "czg"
   },
   "commit-and-tag-version": {
     "releaseCount": 0

@@ -3,14 +3,14 @@ import { leftPadZero } from './../decimal-conversion/utils'
 import isHexColor from 'validator/es/lib/isHexColor'
 
 /**
- * **[en:hexRrggbbToHexRgb:][zh:十六进制色值简写:]**
+ * **hexRrggbbToHexRgb**
  * 
  * <Badge type="tip" text="version: v0.0.6+" />
  * 
  * @group color-conversion
  *
- * @param value - [en:Enter #rrggbb:][zh:输入十六进制色值（带 `#`，例如`#ffffff`）:]
- * @returns [en:Return #rgb:][zh:返回十六进制色值简写（带 `#`，例如`#fff`）:]
+ * @param value - Enter #rrggbb
+ * @returns Return #rgb
  * 
  * @example
  * ```ts
@@ -46,14 +46,14 @@ export function hexRrggbbToHexRgb (color: string): string {
 }
 
 /**
- * **[en:hexRgbToHexRrggbb:][zh:十六进制色值完整写法:]**
+ * **hexRgbToHexRrggbb**
  * 
  * <Badge type="tip" text="version: v0.0.6+" />
  * 
  * @group color-conversion
  *
- * @param value - [en:Enter #rgb:][zh:输入十六进制色值（带 `#`，例如`#fff`）:]
- * @returns [en:Return #rrggbb:][zh:返回十六进制色值完整写法（带 `#`，例如`#ffffff`）:]
+ * @param value - Enter #rgb
+ * @returns Return #rrggbb
  * 
  * @example
  * ```ts
@@ -82,14 +82,14 @@ export function hexRgbToHexRrggbb (color: string): string {
 }
 
 /**
- * **[en:hexRgbsToRgbArray:][zh:十六进制色值转RGB数组:]**
+ * **hexRgbsToRgbArray**
  * 
  * <Badge type="tip" text="version: v0.0.6+" />
  * 
  * @group color-conversion
  *
- * @param value - [en:Enter #rgb / #rrggbb / #rgba / #rrggbbaa:][zh:输入 #rgb / #rrggbb / #rgba / #rrggbbaa:]
- * @returns [en:Return array `[r, g, b, a?]`:][zh:返回数组 `[r, g, b, a?]`:]
+ * @param value - Enter #rgb / #rrggbb / #rgba / #rrggbbaa
+ * @returns Return array `[r, g, b, a?]`
  * 
  * @example
  * ```ts
@@ -117,14 +117,14 @@ export function hexRgbsToRgbArray (color: string): number[] {
 }
 
 /**
- * **[en:hexRgbsToRgbObject:][zh:十六进制色值转RGB对象:]**
+ * **hexRgbsToRgbObject**
  * 
  * <Badge type="tip" text="version: v0.0.7+" />
  * 
  * @group color-conversion
  *
- * @param value - [en:Enter #rgb / #rrggbb / #rgba / #rrggbbaa:][zh:输入 #rgb / #rrggbb / #rgba / #rrggbbaa:]
- * @returns [en:Return object `{r, g, b, a?}`:][zh:返回对象 `{r, g, b, a?}`:]
+ * @param value - Enter #rgb / #rrggbb / #rgba / #rrggbbaa
+ * @returns Return object `{r, g, b, a?}`
  * 
  * @example
  * ```ts
@@ -164,14 +164,14 @@ export function hexRgbsToRgbObject (color: string): {
 }
 
 /**
- * **[en:hexRgbsToRgb:][zh:十六进制色值转RGB:]**
+ * **hexRgbsToRgb**
  * 
  * <Badge type="tip" text="version: v0.0.6+" />
  * 
  * @group color-conversion
  *
- * @param value - [en:Enter #rgb / #rrggbb:][zh:输入 #rgb 或 #rrggbb:]
- * @returns [en:Return rgb(r, g, b):][zh:返回 rgb(r, g, b):]
+ * @param value - Enter #rgb / #rrggbb
+ * @returns Return rgb(r, g, b)
  * 
  * @example
  * ```ts
@@ -194,14 +194,14 @@ export function hexRgbsToRgb (color: string): string {
 }
 
 /**
- * **[en:rgbToRgbArray:][zh:RGB转RGB数组:]**
+ * **rgbToRgbArray**
  * 
  * <Badge type="tip" text="version: v0.0.6+" />
  * 
  * @group color-conversion
  *
- * @param value - [en:Enter rgb(r, g, b, a?):][zh:输入 rgb(r, g, b, a?):]
- * @returns [en:Return array `[r, g, b, a?]`:][zh:返回数组 `[r, g, b, a?]`:]
+ * @param value - Enter rgb(r, g, b, a?)
+ * @returns Return array `[r, g, b, a?]`
  * 
  * @example
  * ```ts
@@ -222,14 +222,14 @@ export function rgbToRgbArray (color: string): number[] {
 }
 
 /**
- * **[en:rgbToRgbObject:][zh:RGB转RGB对象:]**
+ * **rgbToRgbObject**
  * 
  * <Badge type="tip" text="version: v0.0.7+" />
  * 
  * @group color-conversion
  *
- * @param value - [en:Enter rgb(r, g, b, a?):][zh:输入 rgb(r, g, b, a?):]
- * @returns [en:Return object `{r, g, b, a?}`:][zh:返回对象 `{r, g, b, a?}`:]
+ * @param value - Enter rgb(r, g, b, a?)
+ * @returns Return object `{r, g, b, a?}`
  * 
  * @example
  * ```ts
@@ -261,14 +261,14 @@ export function rgbToRgbObject (color: string): {
 }
 
 /**
- * **[en:rgbToHexRgbs:][zh:RGB转十六进制色值:]**
+ * **rgbToHexRgbs**
  * 
  * <Badge type="tip" text="version: v0.0.6+" />
  * 
  * @group color-conversion
  *
- * @param value - [en:Enter rgb(r, g, b, a?):][zh:输入 rgb(r, g, b, a?):]
- * @returns [en:Return #rgb / #rrggbb / #rgba / #rrggbbaa:][zh:返回 #rgb / #rrggbb / #rgba / #rrggbbaa:]
+ * @param value - Enter rgb(r, g, b, a?)
+ * @returns Return #rgb / #rrggbb / #rgba / #rrggbbaa
  * 
  * @example
  * ```ts

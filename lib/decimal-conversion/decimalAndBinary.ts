@@ -1,12 +1,12 @@
 /**
- * **[en:decimalToBinary:][zh:十进制转二进制:]**
+ * **decimalToBinary**
  * 
  * > alias：[`tenToTwo`](tenToTwo)
  * 
  * @group decimal-conversion
  *
- * @param num - [en:Enter a value of number type:][zh:输入十进制数值:]
- * @returns [en:Return the corresponding binary:][zh:返回二进制:]
+ * @param num - Enter decimal numerical value
+ * @returns Return binary
  * 
  * @example
  * ```ts
@@ -25,14 +25,14 @@ export function decimalToBinary (num: number): string {
 export const tenToTwo = decimalToBinary
 
 /**
- * **[en:binaryToDecimal:][zh:二进制转十进制:]**
+ * **binaryToDecimal**
  * 
  * > alias：[`twoToTen`](twoToTen)
  * 
  * @group decimal-conversion
  * 
- * @param str - [en:Enter a value of string type:][zh:输入二进制字符串:]
- * @returns [en:Return the corresponding number:][zh:输出十进制数值:]
+ * @param str - Enter binary string
+ * @returns Return decimal values
  * 
  * @example
  * ```ts

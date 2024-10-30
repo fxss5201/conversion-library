@@ -1,18 +1,18 @@
 import cloneDeep from "lodash.clonedeep"
 
 /**
- * **[en:elTableRowSpan:][zh:Table 表格合并:]**
+ * **elTableRowSpan**
  * 
  * <Badge type="tip" text="version: v0.0.7+" />
  * 
- * [en:Table row merging applied to Element/Element Plus:][zh:应用于 Element/Element Plus 的 Table 行合并:]
+ * Table row merging applied to Element/Element Plus
  * 
  * @group data-structure
  *
- * @param table - [en:Enter table data:][zh:表格数据:]
- * @param key - [en:Merge based on field key:][zh:根据字段 key 进行合并:]
- * @param columns - [en:Which columns should the merge be applied to:][zh:合并应用于哪些列:]
- * @param parentColumn - [en:Merge again based on which parent merge, do not upload for the first merge:][zh:在哪个父合并基础上再次合并，初次合并勿传:]
+ * @param table - Enter table data
+ * @param key - Merge based on field key
+ * @param columns - Which columns should the merge be applied to
+ * @param parentColumn - Merge again based on which parent merge, do not upload for the first merge
  * 
  * @example
  * ```ts
