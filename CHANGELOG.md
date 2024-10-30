@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.10](https://github.com/fxss5201/conversion-library/compare/v0.0.9...v0.0.10) (2024-10-30)
+
+
+### Features
+
+* add change-case ([f6fab6c](https://github.com/fxss5201/conversion-library/commit/f6fab6ca6761147d1f6fa1253d4c6904c568e06d))
+
 ## [0.0.9](https://github.com/fxss5201/conversion-library/compare/v0.0.8...v0.0.9) (2024-10-28)
 
 
