@@ -31,4 +31,4 @@ rgbToRgbArray('rgba(255, 0, 0, 0.33)')
 
 ## Defined in
 
-[lib/color-conversion/hexAndRgb.ts:214](https://github.com/fxss5201/conversion-library/blob/f6fab6ca6761147d1f6fa1253d4c6904c568e06d/lib/color-conversion/hexAndRgb.ts#L214)
+[lib/color-conversion/hexAndRgb.ts:214](https://github.com/fxss5201/conversion-library/blob/main/lib/color-conversion/hexAndRgb.ts#L214)

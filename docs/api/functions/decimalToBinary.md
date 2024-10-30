@@ -30,4 +30,4 @@ decimalToBinary(10) // '1010'
 
 ## Defined in
 
-[lib/decimal-conversion/decimalAndBinary.ts:16](https://github.com/fxss5201/conversion-library/blob/f6fab6ca6761147d1f6fa1253d4c6904c568e06d/lib/decimal-conversion/decimalAndBinary.ts#L16)
+[lib/decimal-conversion/decimalAndBinary.ts:16](https://github.com/fxss5201/conversion-library/blob/main/lib/decimal-conversion/decimalAndBinary.ts#L16)

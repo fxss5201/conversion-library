@@ -39,4 +39,4 @@ combinationArrangement<string | number>([['5G', '6G'],[500, 550]])
 
 ## Defined in
 
-[lib/data-structure/combinationArrangement.ts:23](https://github.com/fxss5201/conversion-library/blob/f6fab6ca6761147d1f6fa1253d4c6904c568e06d/lib/data-structure/combinationArrangement.ts#L23)
+[lib/data-structure/combinationArrangement.ts:23](https://github.com/fxss5201/conversion-library/blob/main/lib/data-structure/combinationArrangement.ts#L23)

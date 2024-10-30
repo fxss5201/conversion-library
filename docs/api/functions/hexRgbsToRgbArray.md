@@ -33,4 +33,4 @@ hexRgbsToRgbArray('#33445566')
 
 ## Defined in
 
-[lib/color-conversion/hexAndRgb.ts:104](https://github.com/fxss5201/conversion-library/blob/f6fab6ca6761147d1f6fa1253d4c6904c568e06d/lib/color-conversion/hexAndRgb.ts#L104)
+[lib/color-conversion/hexAndRgb.ts:104](https://github.com/fxss5201/conversion-library/blob/main/lib/color-conversion/hexAndRgb.ts#L104)

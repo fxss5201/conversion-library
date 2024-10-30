@@ -32,4 +32,4 @@ octalToBinary('15') // '1101'
 
 ## Defined in
 
-[lib/decimal-conversion/binaryAndOctal.ts:30](https://github.com/fxss5201/conversion-library/blob/f6fab6ca6761147d1f6fa1253d4c6904c568e06d/lib/decimal-conversion/binaryAndOctal.ts#L30)
+[lib/decimal-conversion/binaryAndOctal.ts:30](https://github.com/fxss5201/conversion-library/blob/main/lib/decimal-conversion/binaryAndOctal.ts#L30)

@@ -1,17 +1,5 @@
 import { defineConfig } from 'vitepress'
 import typedocSidebar from '../api/typedoc-sidebar.json'
-import { SearchPlugin } from 'vitepress-plugin-search'
-import Segment from 'segment'
-
-const segment = new Segment()
-segment.useDefault()
-
-const options = {
-  encode: function (str) {
-    return segment.doSegment(str, {simple: true});
-  },
-  tokenize: "forward",
-}
 
 const base = '/conversion-library/'
 
@@ -62,6 +50,5 @@ export default defineConfig({
     search: {
       provider: 'local',
     }
-  },
-  vite: { plugins: [SearchPlugin(options)] }
+  }
 })
