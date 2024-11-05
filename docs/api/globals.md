@@ -42,7 +42,7 @@
 - [twoToEight](functions/twoToEight.md)
 - [twoToTen](functions/twoToTen.md)
 
-## intAndRoman
+## int-and-roman
 
 - [intArrayToRomanArray](functions/intArrayToRomanArray.md)
 - [intToRoman](functions/intToRoman.md)

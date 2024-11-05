@@ -3,7 +3,7 @@
  * 
  * <Badge type="tip" text="version: v0.0.11+" />
  * 
- * @group intAndRoman
+ * @group int-and-roman
  *
  * @param value - Enter int
  * @returns roman
@@ -32,7 +32,7 @@ export function intToRoman(num: number): string {
  * 
  * <Badge type="tip" text="version: v0.0.11+" />
  * 
- * @group intAndRoman
+ * @group int-and-roman
  *
  * @param value - Enter int array
  * @returns roman array
@@ -52,7 +52,7 @@ export function intArrayToRomanArray(num: number[]): string[] {
  * 
  * <Badge type="tip" text="version: v0.0.11+" />
  * 
- * @group intAndRoman
+ * @group int-and-roman
  *
  * @param value - Enter roman
  * @returns int
@@ -80,7 +80,7 @@ export function romanToInt(s: string): number {
  * 
  * <Badge type="tip" text="version: v0.0.11+" />
  * 
- * @group intAndRoman
+ * @group int-and-roman
  *
  * @param value - Enter roman array
  * @returns int array
