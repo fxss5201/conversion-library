@@ -1,6 +1,7 @@
 export * from './decimal-conversion'
 export * from './data-structure'
 export * from './color-conversion'
+export * from './intAndRoman'
 export * as changeCase from 'change-case'
 export * as changeCaseKeys from 'change-case/keys'
 export * as spongeCase from 'sponge-case'
