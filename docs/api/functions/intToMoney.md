@@ -29,10 +29,12 @@ money
 ## Example
 
 ```ts
-intToMoney(3749)
-// MMMDCCXLIX
+intToMoney(1234567)
+// '1,234,567'
+intToMoney(1234567, '$')
+// '$ 1,234,567'
 ```
 
 ## Defined in
 
-lib/intAndMoney.ts:18
+[lib/intAndMoney.ts:20](https://github.com/fxss5201/conversion-library/blob/main/lib/intAndMoney.ts#L20)

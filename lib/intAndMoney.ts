@@ -11,8 +11,10 @@
  * 
  * @example
  * ```ts
- * intToMoney(3749)
- * // MMMDCCXLIX
+ * intToMoney(1234567)
+ * // '1,234,567'
+ * intToMoney(1234567, '$')
+ * // '$ 1,234,567'
  * ```
  */
 export function intToMoney(num: number, symbol?: string): string {
