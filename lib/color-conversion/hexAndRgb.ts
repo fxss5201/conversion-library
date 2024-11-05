@@ -9,7 +9,7 @@ import isHexColor from 'validator/es/lib/isHexColor'
  * 
  * @group color-conversion
  *
- * @param value - Enter #rrggbb
+ * @param color - Enter #rrggbb
  * @returns Return #rgb
  * 
  * @example
@@ -52,7 +52,7 @@ export function hexRrggbbToHexRgb (color: string): string {
  * 
  * @group color-conversion
  *
- * @param value - Enter #rgb
+ * @param color - Enter #rgb
  * @returns Return #rrggbb
  * 
  * @example
@@ -88,7 +88,7 @@ export function hexRgbToHexRrggbb (color: string): string {
  * 
  * @group color-conversion
  *
- * @param value - Enter #rgb / #rrggbb / #rgba / #rrggbbaa
+ * @param color - Enter #rgb / #rrggbb / #rgba / #rrggbbaa
  * @returns Return array `[r, g, b, a?]`
  * 
  * @example
@@ -123,7 +123,7 @@ export function hexRgbsToRgbArray (color: string): number[] {
  * 
  * @group color-conversion
  *
- * @param value - Enter #rgb / #rrggbb / #rgba / #rrggbbaa
+ * @param color - Enter #rgb / #rrggbb / #rgba / #rrggbbaa
  * @returns Return object `{r, g, b, a?}`
  * 
  * @example
@@ -170,7 +170,7 @@ export function hexRgbsToRgbObject (color: string): {
  * 
  * @group color-conversion
  *
- * @param value - Enter #rgb / #rrggbb
+ * @param color - Enter #rgb / #rrggbb
  * @returns Return rgb(r, g, b)
  * 
  * @example
@@ -200,7 +200,7 @@ export function hexRgbsToRgb (color: string): string {
  * 
  * @group color-conversion
  *
- * @param value - Enter rgb(r, g, b, a?)
+ * @param color - Enter rgb(r, g, b, a?)
  * @returns Return array `[r, g, b, a?]`
  * 
  * @example
@@ -228,7 +228,7 @@ export function rgbToRgbArray (color: string): number[] {
  * 
  * @group color-conversion
  *
- * @param value - Enter rgb(r, g, b, a?)
+ * @param color - Enter rgb(r, g, b, a?)
  * @returns Return object `{r, g, b, a?}`
  * 
  * @example
@@ -267,7 +267,7 @@ export function rgbToRgbObject (color: string): {
  * 
  * @group color-conversion
  *
- * @param value - Enter rgb(r, g, b, a?)
+ * @param color - Enter rgb(r, g, b, a?)
  * @returns Return #rgb / #rrggbb / #rgba / #rrggbbaa
  * 
  * @example

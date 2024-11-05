@@ -42,6 +42,10 @@
 - [twoToEight](functions/twoToEight.md)
 - [twoToTen](functions/twoToTen.md)
 
+## int-and-money
+
+- [intToMoney](functions/intToMoney.md)
+
 ## int-and-roman
 
 - [intArrayToRomanArray](functions/intArrayToRomanArray.md)

@@ -3,7 +3,7 @@
 # Function: intArrayToRomanArray()
 
 ```ts
-function intArrayToRomanArray(num: number[]): string[]
+function intArrayToRomanArray(nums: number[]): string[]
 ```
 
 **intArrayToRomanArray**
@@ -12,7 +12,9 @@ function intArrayToRomanArray(num: number[]): string[]
 
 ## Parameters
 
-• **num**: `number`[]
+• **nums**: `number`[]
+
+Enter int array
 
 ## Returns
 

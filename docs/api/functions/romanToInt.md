@@ -3,7 +3,7 @@
 # Function: romanToInt()
 
 ```ts
-function romanToInt(s: string): number
+function romanToInt(str: string): number
 ```
 
 **romanToInt**
@@ -12,7 +12,9 @@ function romanToInt(s: string): number
 
 ## Parameters
 
-• **s**: `string`
+• **str**: `string`
+
+Enter roman
 
 ## Returns
 

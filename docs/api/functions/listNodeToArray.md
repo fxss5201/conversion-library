@@ -18,6 +18,8 @@ function listNodeToArray<T>(node: null | ListNode<T>): T[]
 
 • **node**: `null` \| [`ListNode`](../classes/ListNode.md)\<`T`\>
 
+Enter ListNode or null
+
 ## Returns
 
 `T`[]

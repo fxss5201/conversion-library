@@ -19,6 +19,8 @@ function hexRgbsToRgbObject(color: string): {
 
 • **color**: `string`
 
+Enter #rgb / #rrggbb / #rgba / #rrggbbaa
+
 ## Returns
 
 ```ts

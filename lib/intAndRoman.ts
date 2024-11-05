@@ -5,7 +5,7 @@
  * 
  * @group int-and-roman
  *
- * @param value - Enter int
+ * @param num - Enter int
  * @returns roman
  * 
  * @example
@@ -34,7 +34,7 @@ export function intToRoman(num: number): string {
  * 
  * @group int-and-roman
  *
- * @param value - Enter int array
+ * @param nums - Enter int array
  * @returns roman array
  * 
  * @example
@@ -43,8 +43,8 @@ export function intToRoman(num: number): string {
  * // ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC', 'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM', 'M', 'MM']
  * ```
  */
-export function intArrayToRomanArray(num: number[]): string[] {
-  return num.map(intToRoman)
+export function intArrayToRomanArray(nums: number[]): string[] {
+  return nums.map(intToRoman)
 }
 
 /**
@@ -54,7 +54,7 @@ export function intArrayToRomanArray(num: number[]): string[] {
  * 
  * @group int-and-roman
  *
- * @param value - Enter roman
+ * @param str - Enter roman
  * @returns int
  * 
  * @example
@@ -63,12 +63,12 @@ export function intArrayToRomanArray(num: number[]): string[] {
  * // 3749
  * ```
  */
-export function romanToInt(s: string): number {
+export function romanToInt(str: string): number {
   const list: [string, number][] = [["M", 1000], ["CM", 900], ["D", 500], ["CD", 400], ["C", 100], ["XC", 90], ["L", 50], ["XL", 40], ["X", 10], ["IX", 9], ["V", 5], ["IV", 4], ["I", 1]]
   let res = 0
   for (const [rom, int] of list) {
-    while (s.startsWith(rom)) {
-      s = s.replace(rom, '')
+    while (str.startsWith(rom)) {
+      str = str.replace(rom, '')
       res += int
     }
   }
@@ -82,7 +82,7 @@ export function romanToInt(s: string): number {
  * 
  * @group int-and-roman
  *
- * @param value - Enter roman array
+ * @param strs - Enter roman array
  * @returns int array
  * 
  * @example
@@ -91,6 +91,6 @@ export function romanToInt(s: string): number {
  * // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000]
  * ```
  */
-export function romanArrayToIntArray(s: string[]): number[] {
-  return s.map(romanToInt)
+export function romanArrayToIntArray(strs: string[]): number[] {
+  return strs.map(romanToInt)
 }

@@ -14,6 +14,8 @@ function intToRoman(num: number): string
 
 • **num**: `number`
 
+Enter int
+
 ## Returns
 
 `string`
