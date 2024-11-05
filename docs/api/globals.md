@@ -41,3 +41,10 @@
 - [tenToTwo](functions/tenToTwo.md)
 - [twoToEight](functions/twoToEight.md)
 - [twoToTen](functions/twoToTen.md)
+
+## intAndRoman
+
+- [intArrayToRomanArray](functions/intArrayToRomanArray.md)
+- [intToRoman](functions/intToRoman.md)
+- [romanArrayToIntArray](functions/romanArrayToIntArray.md)
+- [romanToInt](functions/romanToInt.md)
