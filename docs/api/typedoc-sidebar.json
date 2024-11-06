@@ -239,6 +239,13 @@
     ]
   },
   {
+    "text": "Type Aliases",
+    "collapsed": true,
+    "items": [
+      { "text": "SizeUnitType", "link": "/api/type-aliases/SizeUnitType.md" }
+    ]
+  },
+  {
     "text": "color-conversion",
     "collapsed": true,
     "items": [
@@ -344,6 +351,16 @@
         "link": "/api/functions/romanArrayToIntArray.md"
       },
       { "text": "romanToInt", "link": "/api/functions/romanToInt.md" }
+    ]
+  },
+  {
+    "text": "size-conversion",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "sizeConversionBase",
+        "link": "/api/functions/sizeConversionBase.md"
+      }
     ]
   }
 ]

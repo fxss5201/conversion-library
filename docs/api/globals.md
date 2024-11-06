@@ -8,6 +8,10 @@
 - [swapCase](namespaces/swapCase/index.md)
 - [titleCase](namespaces/titleCase/index.md)
 
+## Type Aliases
+
+- [SizeUnitType](type-aliases/SizeUnitType.md)
+
 ## color-conversion
 
 - [hexRgbToHexRrggbb](functions/hexRgbToHexRrggbb.md)
@@ -57,3 +61,7 @@
 - [intToRoman](functions/intToRoman.md)
 - [romanArrayToIntArray](functions/romanArrayToIntArray.md)
 - [romanToInt](functions/romanToInt.md)
+
+## size-conversion
+
+- [sizeConversionBase](functions/sizeConversionBase.md)
