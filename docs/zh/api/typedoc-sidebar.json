@@ -5,7 +5,7 @@
     "items": [
       {
         "text": "changeCase",
-        "link": "/api/namespaces/changeCase/",
+        "link": "/zh/api/namespaces/changeCase/",
         "collapsed": true,
         "items": [
           {
@@ -14,11 +14,11 @@
             "items": [
               {
                 "text": "Options",
-                "link": "/api/namespaces/changeCase/interfaces/Options.md"
+                "link": "/zh/api/namespaces/changeCase/interfaces/Options.md"
               },
               {
                 "text": "PascalCaseOptions",
-                "link": "/api/namespaces/changeCase/interfaces/PascalCaseOptions.md"
+                "link": "/zh/api/namespaces/changeCase/interfaces/PascalCaseOptions.md"
               }
             ]
           },
@@ -28,7 +28,7 @@
             "items": [
               {
                 "text": "Locale",
-                "link": "/api/namespaces/changeCase/type-aliases/Locale.md"
+                "link": "/zh/api/namespaces/changeCase/type-aliases/Locale.md"
               }
             ]
           },
@@ -38,59 +38,59 @@
             "items": [
               {
                 "text": "camelCase",
-                "link": "/api/namespaces/changeCase/functions/camelCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/camelCase.md"
               },
               {
                 "text": "capitalCase",
-                "link": "/api/namespaces/changeCase/functions/capitalCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/capitalCase.md"
               },
               {
                 "text": "constantCase",
-                "link": "/api/namespaces/changeCase/functions/constantCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/constantCase.md"
               },
               {
                 "text": "dotCase",
-                "link": "/api/namespaces/changeCase/functions/dotCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/dotCase.md"
               },
               {
                 "text": "kebabCase",
-                "link": "/api/namespaces/changeCase/functions/kebabCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/kebabCase.md"
               },
               {
                 "text": "noCase",
-                "link": "/api/namespaces/changeCase/functions/noCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/noCase.md"
               },
               {
                 "text": "pascalCase",
-                "link": "/api/namespaces/changeCase/functions/pascalCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/pascalCase.md"
               },
               {
                 "text": "pascalSnakeCase",
-                "link": "/api/namespaces/changeCase/functions/pascalSnakeCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/pascalSnakeCase.md"
               },
               {
                 "text": "pathCase",
-                "link": "/api/namespaces/changeCase/functions/pathCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/pathCase.md"
               },
               {
                 "text": "sentenceCase",
-                "link": "/api/namespaces/changeCase/functions/sentenceCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/sentenceCase.md"
               },
               {
                 "text": "snakeCase",
-                "link": "/api/namespaces/changeCase/functions/snakeCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/snakeCase.md"
               },
               {
                 "text": "split",
-                "link": "/api/namespaces/changeCase/functions/split.md"
+                "link": "/zh/api/namespaces/changeCase/functions/split.md"
               },
               {
                 "text": "splitSeparateNumbers",
-                "link": "/api/namespaces/changeCase/functions/splitSeparateNumbers.md"
+                "link": "/zh/api/namespaces/changeCase/functions/splitSeparateNumbers.md"
               },
               {
                 "text": "trainCase",
-                "link": "/api/namespaces/changeCase/functions/trainCase.md"
+                "link": "/zh/api/namespaces/changeCase/functions/trainCase.md"
               }
             ]
           }
@@ -98,7 +98,7 @@
       },
       {
         "text": "changeCaseKeys",
-        "link": "/api/namespaces/changeCaseKeys/",
+        "link": "/zh/api/namespaces/changeCaseKeys/",
         "collapsed": true,
         "items": [
           {
@@ -107,47 +107,47 @@
             "items": [
               {
                 "text": "camelCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/camelCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/camelCase.md"
               },
               {
                 "text": "capitalCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/capitalCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/capitalCase.md"
               },
               {
                 "text": "constantCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/constantCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/constantCase.md"
               },
               {
                 "text": "dotCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/dotCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/dotCase.md"
               },
               {
                 "text": "kebabCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/kebabCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/kebabCase.md"
               },
               {
                 "text": "noCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/noCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/noCase.md"
               },
               {
                 "text": "pascalCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/pascalCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/pascalCase.md"
               },
               {
                 "text": "pathCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/pathCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/pathCase.md"
               },
               {
                 "text": "sentenceCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/sentenceCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/sentenceCase.md"
               },
               {
                 "text": "snakeCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/snakeCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/snakeCase.md"
               },
               {
                 "text": "trainCase",
-                "link": "/api/namespaces/changeCaseKeys/functions/trainCase.md"
+                "link": "/zh/api/namespaces/changeCaseKeys/functions/trainCase.md"
               }
             ]
           }
@@ -155,7 +155,7 @@
       },
       {
         "text": "spongeCase",
-        "link": "/api/namespaces/spongeCase/",
+        "link": "/zh/api/namespaces/spongeCase/",
         "collapsed": true,
         "items": [
           {
@@ -164,7 +164,7 @@
             "items": [
               {
                 "text": "spongeCase",
-                "link": "/api/namespaces/spongeCase/functions/spongeCase.md"
+                "link": "/zh/api/namespaces/spongeCase/functions/spongeCase.md"
               }
             ]
           }
@@ -172,7 +172,7 @@
       },
       {
         "text": "swapCase",
-        "link": "/api/namespaces/swapCase/",
+        "link": "/zh/api/namespaces/swapCase/",
         "collapsed": true,
         "items": [
           {
@@ -181,7 +181,7 @@
             "items": [
               {
                 "text": "swapCase",
-                "link": "/api/namespaces/swapCase/functions/swapCase.md"
+                "link": "/zh/api/namespaces/swapCase/functions/swapCase.md"
               }
             ]
           }
@@ -189,7 +189,7 @@
       },
       {
         "text": "titleCase",
-        "link": "/api/namespaces/titleCase/",
+        "link": "/zh/api/namespaces/titleCase/",
         "collapsed": true,
         "items": [
           {
@@ -198,7 +198,7 @@
             "items": [
               {
                 "text": "Options",
-                "link": "/api/namespaces/titleCase/interfaces/Options.md"
+                "link": "/zh/api/namespaces/titleCase/interfaces/Options.md"
               }
             ]
           },
@@ -208,19 +208,19 @@
             "items": [
               {
                 "text": "SENTENCE_TERMINATORS",
-                "link": "/api/namespaces/titleCase/variables/SENTENCE_TERMINATORS.md"
+                "link": "/zh/api/namespaces/titleCase/variables/SENTENCE_TERMINATORS.md"
               },
               {
                 "text": "SMALL_WORDS",
-                "link": "/api/namespaces/titleCase/variables/SMALL_WORDS.md"
+                "link": "/zh/api/namespaces/titleCase/variables/SMALL_WORDS.md"
               },
               {
                 "text": "TITLE_TERMINATORS",
-                "link": "/api/namespaces/titleCase/variables/TITLE_TERMINATORS.md"
+                "link": "/zh/api/namespaces/titleCase/variables/TITLE_TERMINATORS.md"
               },
               {
                 "text": "WORD_SEPARATORS",
-                "link": "/api/namespaces/titleCase/variables/WORD_SEPARATORS.md"
+                "link": "/zh/api/namespaces/titleCase/variables/WORD_SEPARATORS.md"
               }
             ]
           },
@@ -230,7 +230,7 @@
             "items": [
               {
                 "text": "titleCase",
-                "link": "/api/namespaces/titleCase/functions/titleCase.md"
+                "link": "/zh/api/namespaces/titleCase/functions/titleCase.md"
               }
             ]
           }
@@ -244,41 +244,41 @@
     "items": [
       {
         "text": "hexRgbToHexRrggbb",
-        "link": "/api/functions/hexRgbToHexRrggbb.md"
+        "link": "/zh/api/functions/hexRgbToHexRrggbb.md"
       },
-      { "text": "hexRgbsToRgb", "link": "/api/functions/hexRgbsToRgb.md" },
+      { "text": "hexRgbsToRgb", "link": "/zh/api/functions/hexRgbsToRgb.md" },
       {
         "text": "hexRgbsToRgbArray",
-        "link": "/api/functions/hexRgbsToRgbArray.md"
+        "link": "/zh/api/functions/hexRgbsToRgbArray.md"
       },
       {
         "text": "hexRgbsToRgbObject",
-        "link": "/api/functions/hexRgbsToRgbObject.md"
+        "link": "/zh/api/functions/hexRgbsToRgbObject.md"
       },
       {
         "text": "hexRrggbbToHexRgb",
-        "link": "/api/functions/hexRrggbbToHexRgb.md"
+        "link": "/zh/api/functions/hexRrggbbToHexRgb.md"
       },
-      { "text": "rgbToHexRgbs", "link": "/api/functions/rgbToHexRgbs.md" },
-      { "text": "rgbToRgbArray", "link": "/api/functions/rgbToRgbArray.md" },
-      { "text": "rgbToRgbObject", "link": "/api/functions/rgbToRgbObject.md" }
+      { "text": "rgbToHexRgbs", "link": "/zh/api/functions/rgbToHexRgbs.md" },
+      { "text": "rgbToRgbArray", "link": "/zh/api/functions/rgbToRgbArray.md" },
+      { "text": "rgbToRgbObject", "link": "/zh/api/functions/rgbToRgbObject.md" }
     ]
   },
   {
     "text": "data-structure",
     "collapsed": true,
     "items": [
-      { "text": "ListNode", "link": "/api/classes/ListNode.md" },
+      { "text": "ListNode", "link": "/zh/api/classes/ListNode.md" },
       {
         "text": "arrayToListNode",
-        "link": "/api/functions/arrayToListNode.md"
+        "link": "/zh/api/functions/arrayToListNode.md"
       },
       {
         "text": "combinationArrangement",
-        "link": "/api/functions/combinationArrangement.md"
+        "link": "/zh/api/functions/combinationArrangement.md"
       },
-      { "text": "elTableRowSpan", "link": "/api/functions/elTableRowSpan.md" },
-      { "text": "listNodeToArray", "link": "/api/functions/listNodeToArray.md" }
+      { "text": "elTableRowSpan", "link": "/zh/api/functions/elTableRowSpan.md" },
+      { "text": "listNodeToArray", "link": "/zh/api/functions/listNodeToArray.md" }
     ]
   },
   {
@@ -287,34 +287,34 @@
     "items": [
       {
         "text": "binaryToDecimal",
-        "link": "/api/functions/binaryToDecimal.md"
+        "link": "/zh/api/functions/binaryToDecimal.md"
       },
-      { "text": "binaryToOctal", "link": "/api/functions/binaryToOctal.md" },
+      { "text": "binaryToOctal", "link": "/zh/api/functions/binaryToOctal.md" },
       {
         "text": "decimalToBinary",
-        "link": "/api/functions/decimalToBinary.md"
+        "link": "/zh/api/functions/decimalToBinary.md"
       },
       {
         "text": "decimalToOtherBase",
-        "link": "/api/functions/decimalToOtherBase.md"
+        "link": "/zh/api/functions/decimalToOtherBase.md"
       },
-      { "text": "eightToTwo", "link": "/api/functions/eightToTwo.md" },
-      { "text": "octalToBinary", "link": "/api/functions/octalToBinary.md" },
+      { "text": "eightToTwo", "link": "/zh/api/functions/eightToTwo.md" },
+      { "text": "octalToBinary", "link": "/zh/api/functions/octalToBinary.md" },
       {
         "text": "otherBaseToDecimal",
-        "link": "/api/functions/otherBaseToDecimal.md"
+        "link": "/zh/api/functions/otherBaseToDecimal.md"
       },
-      { "text": "otherToTen", "link": "/api/functions/otherToTen.md" },
-      { "text": "tenToOther", "link": "/api/functions/tenToOther.md" },
-      { "text": "tenToTwo", "link": "/api/functions/tenToTwo.md" },
-      { "text": "twoToEight", "link": "/api/functions/twoToEight.md" },
-      { "text": "twoToTen", "link": "/api/functions/twoToTen.md" }
+      { "text": "otherToTen", "link": "/zh/api/functions/otherToTen.md" },
+      { "text": "tenToOther", "link": "/zh/api/functions/tenToOther.md" },
+      { "text": "tenToTwo", "link": "/zh/api/functions/tenToTwo.md" },
+      { "text": "twoToEight", "link": "/zh/api/functions/twoToEight.md" },
+      { "text": "twoToTen", "link": "/zh/api/functions/twoToTen.md" }
     ]
   },
   {
     "text": "int-and-money",
     "collapsed": true,
-    "items": [{ "text": "intToMoney", "link": "/api/functions/intToMoney.md" }]
+    "items": [{ "text": "intToMoney", "link": "/zh/api/functions/intToMoney.md" }]
   },
   {
     "text": "int-and-roman",
@@ -322,14 +322,14 @@
     "items": [
       {
         "text": "intArrayToRomanArray",
-        "link": "/api/functions/intArrayToRomanArray.md"
+        "link": "/zh/api/functions/intArrayToRomanArray.md"
       },
-      { "text": "intToRoman", "link": "/api/functions/intToRoman.md" },
+      { "text": "intToRoman", "link": "/zh/api/functions/intToRoman.md" },
       {
         "text": "romanArrayToIntArray",
-        "link": "/api/functions/romanArrayToIntArray.md"
+        "link": "/zh/api/functions/romanArrayToIntArray.md"
       },
-      { "text": "romanToInt", "link": "/api/functions/romanToInt.md" }
+      { "text": "romanToInt", "link": "/zh/api/functions/romanToInt.md" }
     ]
   }
 ]
