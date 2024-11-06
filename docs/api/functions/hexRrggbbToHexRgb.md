@@ -14,6 +14,8 @@ function hexRrggbbToHexRgb(color: string): string
 
 • **color**: `string`
 
+Enter #rrggbb
+
 ## Returns
 
 `string`

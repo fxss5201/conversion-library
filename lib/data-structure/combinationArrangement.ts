@@ -5,7 +5,7 @@
  * 
  * @group data-structure
  *
- * @param value - Enter two-dimensional array
+ * @param arr - Enter two-dimensional array
  * @returns combination arrangement
  * 
  * @example

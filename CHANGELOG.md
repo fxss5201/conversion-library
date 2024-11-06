@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.11](https://github.com/fxss5201/conversion-library/compare/v0.0.10...v0.0.11) (2024-11-05)
+
+
+### Features
+
+* add intToRoman, intArrayToRomanArray, romanToInt, romanArrayToIntArray ([fe3fa33](https://github.com/fxss5201/conversion-library/commit/fe3fa332be4b3c64f388d784012726b0c6740ba2))
+
 ## [0.0.10](https://github.com/fxss5201/conversion-library/compare/v0.0.9...v0.0.10) (2024-10-30)
 
 

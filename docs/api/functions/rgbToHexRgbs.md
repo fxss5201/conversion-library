@@ -14,6 +14,8 @@ function rgbToHexRgbs(color: string): string
 
 • **color**: `string`
 
+Enter rgb(r, g, b, a?)
+
 ## Returns
 
 `string`

@@ -19,6 +19,8 @@ function rgbToRgbObject(color: string): {
 
 • **color**: `string`
 
+Enter rgb(r, g, b, a?)
+
 ## Returns
 
 ```ts

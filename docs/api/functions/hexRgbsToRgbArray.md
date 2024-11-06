@@ -14,6 +14,8 @@ function hexRgbsToRgbArray(color: string): number[]
 
 • **color**: `string`
 
+Enter #rgb / #rrggbb / #rgba / #rrggbbaa
+
 ## Returns
 
 `number`[]

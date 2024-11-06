@@ -13,3 +13,23 @@ import { tenToTwo } from 'conversion-library'
 
 console.log(tenToTwo(10)) // '1010'
 ```
+
+## Decimal conversion
+
+details: Conversion between 36 base systems such as binary, octal, decimal, etc, example as octalToBinary, eightToTwo, binaryToOctal, twoToEight, decimalToBinary, tenToTwo, binaryToDecimal, twoToTen, decimalToOtherBase, tenToOther, otherBaseToDecimal, otherToTen
+
+## Data Structure
+
+details: Data Structure, example as ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan
+
+## Color conversion
+
+details: Color conversion, example as hexRrggbbToHexRgb, hexRgbToHexRrggbb, hexRgbsToRgbArray, hexRgbsToRgbObject, hexRgbsToRgb, rgbToRgbArray, rgbToRgbObject, rgbToHexRgbs
+
+## Int and roman
+
+details: Convert integers and Roman numerals to each other, example as intToRoman, intArrayToRomanArray, romanToInt, romanArrayToIntArray
+
+## String conversion
+
+details: import change-case, change-case/keys, sponge-case, swap-case, title-case

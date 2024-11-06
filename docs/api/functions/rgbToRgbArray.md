@@ -14,6 +14,8 @@ function rgbToRgbArray(color: string): number[]
 
 • **color**: `string`
 
+Enter rgb(r, g, b, a?)
+
 ## Returns
 
 `number`[]

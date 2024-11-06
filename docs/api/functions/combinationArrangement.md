@@ -18,6 +18,8 @@ function combinationArrangement<T>(arr: T[][]): T[][]
 
 • **arr**: `T`[][]
 
+Enter two-dimensional array
+
 ## Returns
 
 `T`[][]

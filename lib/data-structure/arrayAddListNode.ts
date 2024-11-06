@@ -68,7 +68,7 @@ export function arrayToListNode<T>(arr: T[]): ListNode<T> | null {
  * 
  * @group data-structure
  *
- * @param arr - Enter ListNode or null
+ * @param node - Enter ListNode or null
  * @returns Return array
  * 
  * @example
