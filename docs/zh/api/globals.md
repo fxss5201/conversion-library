@@ -42,6 +42,11 @@
 - [twoToEight](functions/twoToEight.md)
 - [twoToTen](functions/twoToTen.md)
 
+## fahrenheit-and-celsius
+
+- [celsiusToFahrenheit](functions/celsiusToFahrenheit.md)
+- [fahrenheitToCelsius](functions/fahrenheitToCelsius.md)
+
 ## int-and-money
 
 - [intToMoney](functions/intToMoney.md)

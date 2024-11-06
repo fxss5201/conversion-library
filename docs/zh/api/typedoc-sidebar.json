@@ -312,6 +312,20 @@
     ]
   },
   {
+    "text": "fahrenheit-and-celsius",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "celsiusToFahrenheit",
+        "link": "/zh/api/functions/celsiusToFahrenheit.md"
+      },
+      {
+        "text": "fahrenheitToCelsius",
+        "link": "/zh/api/functions/fahrenheitToCelsius.md"
+      }
+    ]
+  },
+  {
     "text": "int-and-money",
     "collapsed": true,
     "items": [{ "text": "intToMoney", "link": "/zh/api/functions/intToMoney.md" }]
