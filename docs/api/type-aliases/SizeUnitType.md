@@ -17,4 +17,4 @@ type SizeUnitType:
 
 ## Defined in
 
-[lib/size-conversion/index.ts:1](https://github.com/fxss5201/conversion-library/blob/main/lib/size-conversion/index.ts#L1)
+[lib/size-conversion/sizeConversionBase.ts:1](https://github.com/fxss5201/conversion-library/blob/main/lib/size-conversion/sizeConversionBase.ts#L1)

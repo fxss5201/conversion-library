@@ -46,4 +46,4 @@ sizeConversionBase(512, 'MB', 'GB')
 
 ## Defined in
 
-[lib/size-conversion/index.ts:24](https://github.com/fxss5201/conversion-library/blob/main/lib/size-conversion/index.ts#L24)
+[lib/size-conversion/sizeConversionBase.ts:24](https://github.com/fxss5201/conversion-library/blob/main/lib/size-conversion/sizeConversionBase.ts#L24)
