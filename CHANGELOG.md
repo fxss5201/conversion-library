@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.12](https://github.com/fxss5201/conversion-library/compare/v0.0.11...v0.0.12) (2024-11-07)
+
+
+### Features
+
+* add fahrenheitToCelsius, celsiusToFahrenheit ([a88baed](https://github.com/fxss5201/conversion-library/commit/a88baedec692ed33b4af2dc5f7784750a57f2129))
+* add intToMoney ([4e06199](https://github.com/fxss5201/conversion-library/commit/4e06199eae8f502f9f1402dec1bd983c9317a0bf))
+* add sizeConversionArray, sizeConversionString ([9ed2ae8](https://github.com/fxss5201/conversion-library/commit/9ed2ae8fb96a571466c95ee4111dbe972c7cc5df))
+* add sizeConversionBase ([bb3f4fd](https://github.com/fxss5201/conversion-library/commit/bb3f4fd6f03d750f77b03e1eac05b9301afe62f0))
+
 ## [0.0.11](https://github.com/fxss5201/conversion-library/compare/v0.0.10...v0.0.11) (2024-11-05)
 
 
