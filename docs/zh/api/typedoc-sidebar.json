@@ -242,6 +242,10 @@
     "text": "Type Aliases",
     "collapsed": true,
     "items": [
+      {
+        "text": "SizeConversionArrayItemType",
+        "link": "/zh/api/type-aliases/SizeConversionArrayItemType.md"
+      },
       { "text": "SizeUnitType", "link": "/zh/api/type-aliases/SizeUnitType.md" }
     ]
   },
@@ -358,8 +362,16 @@
     "collapsed": true,
     "items": [
       {
+        "text": "sizeConversionArray",
+        "link": "/zh/api/functions/sizeConversionArray.md"
+      },
+      {
         "text": "sizeConversionBase",
         "link": "/zh/api/functions/sizeConversionBase.md"
+      },
+      {
+        "text": "sizeConversionString",
+        "link": "/zh/api/functions/sizeConversionString.md"
       }
     ]
   }

@@ -10,7 +10,7 @@ import { sizeConversionArray } from './sizeConversionArray'
  *
  * @param value - Enter value
  * @param fromUnit - Enter value unit B/KB/MB/GB/TB/PB/EB/ZB/YB
- * @param symbol - Enter symbol, Used for connecting strings
+ * @param symbol - Enter symbol, Used for connecting strings, default is ''
  * @returns size string
  * 
  * @example
@@ -21,7 +21,7 @@ import { sizeConversionArray } from './sizeConversionArray'
  * // 4TB-904GB
  * ```
  */
-export function sizeConversionString(value: number, fromUnit: SizeUnitType, symbol?: string): string {
+export function sizeConversionString(value: number, fromUnit: SizeUnitType, symbol: string = ''): string {
   const list = sizeConversionArray(value, fromUnit)
-  return list.map(item => item.label).join(symbol ?? '')
+  return list.map(item => item.label).join(symbol)
 }

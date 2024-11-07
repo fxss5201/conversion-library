@@ -10,6 +10,7 @@
 
 ## Type Aliases
 
+- [SizeConversionArrayItemType](type-aliases/SizeConversionArrayItemType.md)
 - [SizeUnitType](type-aliases/SizeUnitType.md)
 
 ## color-conversion
@@ -64,4 +65,6 @@
 
 ## size-conversion
 
+- [sizeConversionArray](functions/sizeConversionArray.md)
 - [sizeConversionBase](functions/sizeConversionBase.md)
+- [sizeConversionString](functions/sizeConversionString.md)
