@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.13](https://github.com/fxss5201/conversion-library/compare/v0.0.12...v0.0.13) (2024-11-11)
+
+
+### Features
+
+* add areaConversionBase ([ecade83](https://github.com/fxss5201/conversion-library/commit/ecade83805cedba74310acda5a1737c4cc24d8bb))
+* add lengthConversionBase ([41b4da1](https://github.com/fxss5201/conversion-library/commit/41b4da171609a4831ea1c296f8537d2771220561))
+* add weightConversionBase ([4ed7025](https://github.com/fxss5201/conversion-library/commit/4ed702599b50da0b25c1f65c849cd5ffe4bba0e5))
+
 ## [0.0.12](https://github.com/fxss5201/conversion-library/compare/v0.0.11...v0.0.12) (2024-11-07)
 
 
