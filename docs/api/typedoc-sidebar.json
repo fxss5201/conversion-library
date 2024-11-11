@@ -251,7 +251,11 @@
         "text": "SizeConversionArrayItemType",
         "link": "/api/type-aliases/SizeConversionArrayItemType.md"
       },
-      { "text": "SizeUnitType", "link": "/api/type-aliases/SizeUnitType.md" }
+      { "text": "SizeUnitType", "link": "/api/type-aliases/SizeUnitType.md" },
+      {
+        "text": "WeightUnitType",
+        "link": "/api/type-aliases/WeightUnitType.md"
+      }
     ]
   },
   {
@@ -397,6 +401,16 @@
       {
         "text": "sizeConversionString",
         "link": "/api/functions/sizeConversionString.md"
+      }
+    ]
+  },
+  {
+    "text": "weight-conversion",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "weightConversionBase",
+        "link": "/api/functions/weightConversionBase.md"
       }
     ]
   }

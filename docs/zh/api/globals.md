@@ -14,6 +14,7 @@
 - [LengthUnitType](type-aliases/LengthUnitType.md)
 - [SizeConversionArrayItemType](type-aliases/SizeConversionArrayItemType.md)
 - [SizeUnitType](type-aliases/SizeUnitType.md)
+- [WeightUnitType](type-aliases/WeightUnitType.md)
 
 ## area-conversion
 
@@ -78,3 +79,7 @@
 - [sizeConversionArray](functions/sizeConversionArray.md)
 - [sizeConversionBase](functions/sizeConversionBase.md)
 - [sizeConversionString](functions/sizeConversionString.md)
+
+## weight-conversion
+
+- [weightConversionBase](functions/weightConversionBase.md)
