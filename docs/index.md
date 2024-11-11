@@ -27,6 +27,24 @@ features:
   - title: Int and roman
     details: Convert integers and Roman numerals to each other, example as intToRoman, intArrayToRomanArray, romanToInt, romanArrayToIntArray
     link: /api/globals.html#int-and-roman
+  - title: Int and money
+    details: Convert numbers to money, example as intToMoney
+    link: /api/globals.html#int-and-money
+  - title: Fahrenheit and celsius
+    details: Temperature conversion, example as fahrenheitToCelsius, celsiusToFahrenheit
+    link: /api/globals.html#fahrenheit-and-celsius
+  - title: Size conversion
+    details: B/KB/MB/GB/TB/PB/EB/ZB/YB conversion, example as sizeConversionBase, sizeConversionArray, sizeConversionString
+    link: /api/globals.html#size-conversion
+  - title: Length conversion
+    details: nm/纳米/um/微米/mm/毫米/cm/厘米/dm/分米/m/米/km/千米/公里/mile/英里/yd/码/ft/英尺/in/英寸/里/丈/尺/寸/分/n mile/海里 conversion, example as lengthConversionBase
+    link: /api/globals.html#length-conversion
+  - title: Area conversion
+    details: m㎡/平方毫米/c㎡/平方厘米/d㎡/平方分米/㎡/平方米/h㎡/公顷/k㎡/平方千米/sq.in/平方英寸/sq.ft/平方英尺/sq.yd/平方码/acre/英亩/sq.mi/平方英里/平方丈/平方尺/平方寸/亩/分 conversion, example as areaConversionBase
+    link: /api/globals.html#area-conversion
+  - title: Weight conversion
+    details: μg/微克/mg/毫克/g/克/kg/千克/t/吨/lb/磅/oz/盎司/担/斤/两/钱/克拉 conversion, example as weightConversionBase
+    link: /api/globals.html#weight-conversion
   - title: String conversion
     details: import change-case, change-case/keys, sponge-case, swap-case, title-case
     link: /api/namespaces/changeCase/
