@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: guide
-      link: /guide/
+      link: /zh/guide/
     - theme: alt
       text: API METHODS
-      link: /api/globals
+      link: /zh/api/globals
 
 features:
   - title: 进制转换

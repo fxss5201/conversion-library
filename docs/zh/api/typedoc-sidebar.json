@@ -243,6 +243,10 @@
     "collapsed": true,
     "items": [
       {
+        "text": "LengthUnitType",
+        "link": "/zh/api/type-aliases/LengthUnitType.md"
+      },
+      {
         "text": "SizeConversionArrayItemType",
         "link": "/zh/api/type-aliases/SizeConversionArrayItemType.md"
       },
@@ -355,6 +359,16 @@
         "link": "/zh/api/functions/romanArrayToIntArray.md"
       },
       { "text": "romanToInt", "link": "/zh/api/functions/romanToInt.md" }
+    ]
+  },
+  {
+    "text": "length-conversion",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "lengthConversionBase",
+        "link": "/zh/api/functions/lengthConversionBase.md"
+      }
     ]
   },
   {

@@ -10,6 +10,7 @@
 
 ## Type Aliases
 
+- [LengthUnitType](type-aliases/LengthUnitType.md)
 - [SizeConversionArrayItemType](type-aliases/SizeConversionArrayItemType.md)
 - [SizeUnitType](type-aliases/SizeUnitType.md)
 
@@ -62,6 +63,10 @@
 - [intToRoman](functions/intToRoman.md)
 - [romanArrayToIntArray](functions/romanArrayToIntArray.md)
 - [romanToInt](functions/romanToInt.md)
+
+## length-conversion
+
+- [lengthConversionBase](functions/lengthConversionBase.md)
 
 ## size-conversion
 
