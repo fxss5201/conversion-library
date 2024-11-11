@@ -10,9 +10,14 @@
 
 ## Type Aliases
 
+- [AreaUnitType](type-aliases/AreaUnitType.md)
 - [LengthUnitType](type-aliases/LengthUnitType.md)
 - [SizeConversionArrayItemType](type-aliases/SizeConversionArrayItemType.md)
 - [SizeUnitType](type-aliases/SizeUnitType.md)
+
+## area-conversion
+
+- [areaConversionBase](functions/areaConversionBase.md)
 
 ## color-conversion
 

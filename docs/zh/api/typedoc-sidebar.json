@@ -242,6 +242,7 @@
     "text": "Type Aliases",
     "collapsed": true,
     "items": [
+      { "text": "AreaUnitType", "link": "/zh/api/type-aliases/AreaUnitType.md" },
       {
         "text": "LengthUnitType",
         "link": "/zh/api/type-aliases/LengthUnitType.md"
@@ -251,6 +252,16 @@
         "link": "/zh/api/type-aliases/SizeConversionArrayItemType.md"
       },
       { "text": "SizeUnitType", "link": "/zh/api/type-aliases/SizeUnitType.md" }
+    ]
+  },
+  {
+    "text": "area-conversion",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "areaConversionBase",
+        "link": "/zh/api/functions/areaConversionBase.md"
+      }
     ]
   },
   {
