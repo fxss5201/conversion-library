@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.14](https://github.com/fxss5201/conversion-library/compare/v0.0.13...v0.0.14) (2024-11-13)
+
+
+### Features
+
+* add arrayToTree, treeToArray ([577898c](https://github.com/fxss5201/conversion-library/commit/577898ccac78631e3badf4c4d4c79b37abdeafda))
+
 ## [0.0.13](https://github.com/fxss5201/conversion-library/compare/v0.0.12...v0.0.13) (2024-11-11)
 
 
