@@ -244,6 +244,14 @@
     "items": [
       { "text": "AreaUnitType", "link": "/zh/api/type-aliases/AreaUnitType.md" },
       {
+        "text": "ArrayToTreeOptionsType",
+        "link": "/zh/api/type-aliases/ArrayToTreeOptionsType.md"
+      },
+      {
+        "text": "ArrayToTreeReturnItemType",
+        "link": "/zh/api/type-aliases/ArrayToTreeReturnItemType.md"
+      },
+      {
         "text": "LengthUnitType",
         "link": "/zh/api/type-aliases/LengthUnitType.md"
       },
@@ -252,6 +260,14 @@
         "link": "/zh/api/type-aliases/SizeConversionArrayItemType.md"
       },
       { "text": "SizeUnitType", "link": "/zh/api/type-aliases/SizeUnitType.md" },
+      {
+        "text": "TreeToArrayOptionsType",
+        "link": "/zh/api/type-aliases/TreeToArrayOptionsType.md"
+      },
+      {
+        "text": "TreeToArrayReturnItemType",
+        "link": "/zh/api/type-aliases/TreeToArrayReturnItemType.md"
+      },
       {
         "text": "WeightUnitType",
         "link": "/zh/api/type-aliases/WeightUnitType.md"
@@ -303,12 +319,17 @@
         "text": "arrayToListNode",
         "link": "/zh/api/functions/arrayToListNode.md"
       },
+      { "text": "arrayToTree", "link": "/zh/api/functions/arrayToTree.md" },
       {
         "text": "combinationArrangement",
         "link": "/zh/api/functions/combinationArrangement.md"
       },
       { "text": "elTableRowSpan", "link": "/zh/api/functions/elTableRowSpan.md" },
-      { "text": "listNodeToArray", "link": "/zh/api/functions/listNodeToArray.md" }
+      {
+        "text": "listNodeToArray",
+        "link": "/zh/api/functions/listNodeToArray.md"
+      },
+      { "text": "treeToArray", "link": "/zh/api/functions/treeToArray.md" }
     ]
   },
   {

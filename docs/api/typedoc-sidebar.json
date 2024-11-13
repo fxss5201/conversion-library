@@ -244,6 +244,14 @@
     "items": [
       { "text": "AreaUnitType", "link": "/api/type-aliases/AreaUnitType.md" },
       {
+        "text": "ArrayToTreeOptionsType",
+        "link": "/api/type-aliases/ArrayToTreeOptionsType.md"
+      },
+      {
+        "text": "ArrayToTreeReturnItemType",
+        "link": "/api/type-aliases/ArrayToTreeReturnItemType.md"
+      },
+      {
         "text": "LengthUnitType",
         "link": "/api/type-aliases/LengthUnitType.md"
       },
@@ -252,6 +260,14 @@
         "link": "/api/type-aliases/SizeConversionArrayItemType.md"
       },
       { "text": "SizeUnitType", "link": "/api/type-aliases/SizeUnitType.md" },
+      {
+        "text": "TreeToArrayOptionsType",
+        "link": "/api/type-aliases/TreeToArrayOptionsType.md"
+      },
+      {
+        "text": "TreeToArrayReturnItemType",
+        "link": "/api/type-aliases/TreeToArrayReturnItemType.md"
+      },
       {
         "text": "WeightUnitType",
         "link": "/api/type-aliases/WeightUnitType.md"
@@ -303,12 +319,17 @@
         "text": "arrayToListNode",
         "link": "/api/functions/arrayToListNode.md"
       },
+      { "text": "arrayToTree", "link": "/api/functions/arrayToTree.md" },
       {
         "text": "combinationArrangement",
         "link": "/api/functions/combinationArrangement.md"
       },
       { "text": "elTableRowSpan", "link": "/api/functions/elTableRowSpan.md" },
-      { "text": "listNodeToArray", "link": "/api/functions/listNodeToArray.md" }
+      {
+        "text": "listNodeToArray",
+        "link": "/api/functions/listNodeToArray.md"
+      },
+      { "text": "treeToArray", "link": "/api/functions/treeToArray.md" }
     ]
   },
   {

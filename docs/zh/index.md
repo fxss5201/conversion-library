@@ -19,7 +19,7 @@ features:
     details: 二进制、八进制、十进制等36进制之间的转换，例如：octalToBinary, eightToTwo, binaryToOctal, twoToEight, decimalToBinary, tenToTwo, binaryToDecimal, twoToTen, decimalToOtherBase, tenToOther, otherBaseToDecimal, otherToTen
     link: /zh/api/globals.html#decimal-conversion
   - title: 数据转转
-    details: 数据转转，例如：ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan
+    details: 数据转转，例如：ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan, arrayToTree, treeToArray
     link: /zh/api/globals.html#data-structure
   - title: 颜色转换
     details: 颜色转换，例如：hexRrggbbToHexRgb, hexRgbToHexRrggbb, hexRgbsToRgbArray, hexRgbsToRgbObject, hexRgbsToRgb, rgbToRgbArray, rgbToRgbObject, rgbToHexRgbs

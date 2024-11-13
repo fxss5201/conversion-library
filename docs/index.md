@@ -19,7 +19,7 @@ features:
     details: Conversion between 36 base systems such as binary, octal, decimal, etc, example as octalToBinary, eightToTwo, binaryToOctal, twoToEight, decimalToBinary, tenToTwo, binaryToDecimal, twoToTen, decimalToOtherBase, tenToOther, otherBaseToDecimal, otherToTen
     link: /api/globals.html#decimal-conversion
   - title: Data Structure
-    details: Data Structure, example as ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan
+    details: Data Structure, example as ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan, arrayToTree, treeToArray
     link: /api/globals.html#data-structure
   - title: Color conversion
     details: Color conversion, example as hexRrggbbToHexRgb, hexRgbToHexRrggbb, hexRgbsToRgbArray, hexRgbsToRgbObject, hexRgbsToRgb, rgbToRgbArray, rgbToRgbObject, rgbToHexRgbs

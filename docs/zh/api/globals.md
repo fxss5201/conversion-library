@@ -11,9 +11,13 @@
 ## Type Aliases
 
 - [AreaUnitType](type-aliases/AreaUnitType.md)
+- [ArrayToTreeOptionsType](type-aliases/ArrayToTreeOptionsType.md)
+- [ArrayToTreeReturnItemType](type-aliases/ArrayToTreeReturnItemType.md)
 - [LengthUnitType](type-aliases/LengthUnitType.md)
 - [SizeConversionArrayItemType](type-aliases/SizeConversionArrayItemType.md)
 - [SizeUnitType](type-aliases/SizeUnitType.md)
+- [TreeToArrayOptionsType](type-aliases/TreeToArrayOptionsType.md)
+- [TreeToArrayReturnItemType](type-aliases/TreeToArrayReturnItemType.md)
 - [WeightUnitType](type-aliases/WeightUnitType.md)
 
 ## area-conversion
@@ -35,9 +39,11 @@
 
 - [ListNode](classes/ListNode.md)
 - [arrayToListNode](functions/arrayToListNode.md)
+- [arrayToTree](functions/arrayToTree.md)
 - [combinationArrangement](functions/combinationArrangement.md)
 - [elTableRowSpan](functions/elTableRowSpan.md)
 - [listNodeToArray](functions/listNodeToArray.md)
+- [treeToArray](functions/treeToArray.md)
 
 ## decimal-conversion
 

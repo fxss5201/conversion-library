@@ -35,4 +35,4 @@ listNodeToArray({ value: { name: 'aaa', age: 1 }, next: { value: { name: 'bbb', 
 
 ## Defined in
 
-[lib/data-structure/arrayAddListNode.ts:80](https://github.com/fxss5201/conversion-library/blob/main/lib/data-structure/arrayAddListNode.ts#L80)
+[lib/data-structure/arrayAndListNode.ts:80](https://github.com/fxss5201/conversion-library/blob/main/lib/data-structure/arrayAndListNode.ts#L80)
