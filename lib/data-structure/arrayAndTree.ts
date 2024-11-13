@@ -2,6 +2,7 @@ export type ArrayToTreeOptionsType<IdK = string, parentIdK = string> = {
   idKey?: IdK
   parentIdKey?: parentIdK
 }
+export type ArrayToTreeReturnItemType<T> = T & { children: ArrayToTreeReturnItemType<T>[] }
 
 /**
  * **arrayToTree**
@@ -56,14 +57,14 @@ export function arrayToTree<T, IdK extends keyof T, parentIdK extends keyof T>(a
     }
   })
 
-  type arrayToTreeReturnItemType = T & { [childrenKey]: arrayToTreeReturnItemType[] }
   const tree = Object.values(map).filter((currentValue) =>!currentValue[parentIdKey])
-  return tree as arrayToTreeReturnItemType[]
+  return tree as ArrayToTreeReturnItemType<T>[]
 }
 
 export type TreeToArrayOptionsType<IdK = string> = {
   idKey?: IdK
 }
+export type TreeToArrayReturnItemType<T, IdK extends keyof T> = Omit<T, 'children'> & { parentId?: T[IdK] | null }
 
 /**
  * **treeToArray**
@@ -72,7 +73,7 @@ export type TreeToArrayOptionsType<IdK = string> = {
  * 
  * @group data-structure
  *
- * @param array - Enter tree
+ * @param tree - Enter tree
  * @param options - Options
  *  - `idKey` - id key, default `id`
  * @returns Return array
@@ -98,7 +99,7 @@ export type TreeToArrayOptionsType<IdK = string> = {
  */
 export function treeToArray<T, IdK extends keyof T>(tree: T[], options: TreeToArrayOptionsType<IdK> = {}) {
   const { idKey = 'id' as IdK } = options
-  type treeToArrayReturnItemType = Omit<T, "children"> & { parentId?: T[IdK] | null }
+  type treeToArrayReturnItemType = TreeToArrayReturnItemType<T, IdK>
   const nodes: treeToArrayReturnItemType[] = []
   const stack: { node: T | null, children: T[], parentId: T[IdK] | null }[] = []
   stack.push({ node: null, children: tree, parentId: null })
