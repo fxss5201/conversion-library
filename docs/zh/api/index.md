@@ -20,7 +20,7 @@ console.log(tenToTwo(10)) // '1010'
 
 ## 数据转转
 
-描述：数据转转，例如：ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan
+描述：数据转转，例如：ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan, arrayToTree, treeToArray
 
 ## 颜色转换
 

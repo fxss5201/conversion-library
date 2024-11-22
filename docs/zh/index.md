@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "conversion-library"
-  text: "conversion-library"
-  tagline: Contains multiple format conversion methods
+  text: "转换库"
+  tagline: 包含多种格式转换方法
   actions:
     - theme: brand
-      text: guide
+      text: 指南
       link: /zh/guide/
     - theme: alt
-      text: API METHODS
+      text: 函数方法
       link: /zh/api/globals
 
 features:
@@ -45,6 +45,9 @@ features:
   - title: 重量转换
     details: μg/微克/mg/毫克/g/克/kg/千克/t/吨/lb/磅/oz/盎司/担/斤/两/钱/克拉 转换，例如：weightConversionBase
     link: /zh/api/globals.html#weight-conversion
+  - title: 数字转换
+    details: 数字 转换，例如：numberToExponential (数字转为科学计数法字符串), exponentialToNumber (科学计数法字符串转为数字)
+    link: /zh/api/globals.html#number-conversion
   - title: 字符串转换
     details: 引自 change-case, change-case/keys, sponge-case, swap-case, title-case
     link: /zh/api/namespaces/changeCase/

@@ -80,6 +80,11 @@
 
 - [lengthConversionBase](functions/lengthConversionBase.md)
 
+## number-conversion
+
+- [exponentialToNumber](functions/exponentialToNumber.md)
+- [numberToExponential](functions/numberToExponential.md)
+
 ## size-conversion
 
 - [sizeConversionArray](functions/sizeConversionArray.md)

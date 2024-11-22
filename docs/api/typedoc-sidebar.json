@@ -408,6 +408,20 @@
     ]
   },
   {
+    "text": "number-conversion",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "exponentialToNumber",
+        "link": "/api/functions/exponentialToNumber.md"
+      },
+      {
+        "text": "numberToExponential",
+        "link": "/api/functions/numberToExponential.md"
+      }
+    ]
+  },
+  {
     "text": "size-conversion",
     "collapsed": true,
     "items": [

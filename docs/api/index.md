@@ -20,7 +20,7 @@ details: Conversion between 36 base systems such as binary, octal, decimal, etc,
 
 ## Data Structure
 
-details: Data Structure, example as ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan
+details: Data Structure, example as ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan, arrayToTree, treeToArray
 
 ## Color conversion
 
