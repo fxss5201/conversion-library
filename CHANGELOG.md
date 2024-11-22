@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.15](https://github.com/fxss5201/conversion-library/compare/v0.0.14...v0.0.15) (2024-11-22)
+
+
+### Features
+
+* add numberToExponential, exponentialToNumber ([f76ddec](https://github.com/fxss5201/conversion-library/commit/f76ddec6747850d74efd21413ce9cdc197905a02))
+
 ## [0.0.14](https://github.com/fxss5201/conversion-library/compare/v0.0.13...v0.0.14) (2024-11-13)
 
 
