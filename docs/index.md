@@ -48,6 +48,9 @@ features:
   - title: Number conversion
     details: Number conversion, example as numberToExponential, exponentialToNumber
     link: /api/globals.html#number-conversion
+  - title: Speed conversion
+    details: Speed conversion, example as speedConversionBase
+    link: /api/globals.html#speed-conversion
   - title: String conversion
     details: import change-case, change-case/keys, sponge-case, swap-case, title-case
     link: /api/namespaces/changeCase/

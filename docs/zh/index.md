@@ -48,6 +48,9 @@ features:
   - title: 数字转换
     details: 数字 转换，例如：numberToExponential (数字转为科学计数法字符串), exponentialToNumber (科学计数法字符串转为数字)
     link: /zh/api/globals.html#number-conversion
+  - title: 速度转换
+    details: 速度转换，例如：speedConversionBase
+    link: /zh/api/globals.html#speed-conversion
   - title: 字符串转换
     details: 引自 change-case, change-case/keys, sponge-case, swap-case, title-case
     link: /zh/api/namespaces/changeCase/

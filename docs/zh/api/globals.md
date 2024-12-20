@@ -19,6 +19,7 @@
 - [TreeToArrayOptionsType](type-aliases/TreeToArrayOptionsType.md)
 - [TreeToArrayReturnItemType](type-aliases/TreeToArrayReturnItemType.md)
 - [WeightUnitType](type-aliases/WeightUnitType.md)
+- [speedUnitType](type-aliases/speedUnitType.md)
 
 ## area-conversion
 
@@ -90,6 +91,10 @@
 - [sizeConversionArray](functions/sizeConversionArray.md)
 - [sizeConversionBase](functions/sizeConversionBase.md)
 - [sizeConversionString](functions/sizeConversionString.md)
+
+## speed-conversion
+
+- [speedConversionBase](functions/speedConversionBase.md)
 
 ## weight-conversion
 

@@ -51,7 +51,8 @@
     "areaConversionBase",
     "weightConversionBase",
     "numberToExponential",
-    "exponentialToNumber"
+    "exponentialToNumber",
+    "speedConversionBase"
   ],
   "description": "conversion library, example as octalToBinary, eightToTwo, binaryToOctal, twoToEight, decimalToBinary, tenToTwo, binaryToDecimal, twoToTen, decimalToOtherBase, tenToOther, otherBaseToDecimal, otherToTen, ListNode, arrayToListNode, listNodeToArray, combinationArrangement, elTableRowSpan, hexRrggbbToHexRgb, hexRgbToHexRrggbb, hexRgbsToRgbArray, hexRgbsToRgbObject, hexRgbsToRgb, rgbToRgbArray, rgbToRgbObject, rgbToHexRgbs, intToRoman, intArrayToRomanArray, romanToInt, romanArrayToIntArray, change-case, change-case/keys, sponge-case, swap-case, title-case",
   "author": "fxss5201",

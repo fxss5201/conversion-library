@@ -271,7 +271,8 @@
       {
         "text": "WeightUnitType",
         "link": "/api/type-aliases/WeightUnitType.md"
-      }
+      },
+      { "text": "speedUnitType", "link": "/api/type-aliases/speedUnitType.md" }
     ]
   },
   {
@@ -436,6 +437,16 @@
       {
         "text": "sizeConversionString",
         "link": "/api/functions/sizeConversionString.md"
+      }
+    ]
+  },
+  {
+    "text": "speed-conversion",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "speedConversionBase",
+        "link": "/api/functions/speedConversionBase.md"
       }
     ]
   },

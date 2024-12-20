@@ -56,7 +56,11 @@ console.log(tenToTwo(10)) // '1010'
 
 ## 数字转换
 
-描述：details: 数字 转换，例如：numberToExponential (数字转为科学计数法字符串), exponentialToNumber (科学计数法字符串转为数字)
+描述：数字 转换，例如：numberToExponential (数字转为科学计数法字符串), exponentialToNumber (科学计数法字符串转为数字)
+
+## 速度转换
+
+描述：速度转换，例如：speedConversionBase
 
 ## 字符串转换
 

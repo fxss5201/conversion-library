@@ -54,6 +54,10 @@ console.log(tenToTwo(10)) // '1010'
 
 描述：μg/微克/mg/毫克/g/克/kg/千克/t/吨/lb/磅/oz/盎司/担/斤/两/钱/克拉 转换，例如：weightConversionBase
 
+## 数字转换
+
+描述：details: 数字 转换，例如：numberToExponential (数字转为科学计数法字符串), exponentialToNumber (科学计数法字符串转为数字)
+
 ## 字符串转换
 
 描述：引自 change-case, change-case/keys, sponge-case, swap-case, title-case

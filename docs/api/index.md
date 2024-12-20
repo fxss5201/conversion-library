@@ -54,6 +54,10 @@ details: m㎡/平方毫米/c㎡/平方厘米/d㎡/平方分米/㎡/平方米/h�
 
 details: μg/微克/mg/毫克/g/克/kg/千克/t/吨/lb/磅/oz/盎司/担/斤/两/钱/克拉 conversion, example as weightConversionBase
 
+## Number conversion
+
+details: Number conversion, example as numberToExponential, exponentialToNumber
+
 ## String conversion
 
 details: import change-case, change-case/keys, sponge-case, swap-case, title-case
