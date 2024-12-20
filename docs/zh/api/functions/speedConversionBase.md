@@ -11,7 +11,7 @@ function speedConversionBase(
 
 **speedConversionBase**
 
-<Badge type="tip" text="version: v0.0.14+" />
+<Badge type="tip" text="version: v0.0.16+" />
 
 ## Parameters
 

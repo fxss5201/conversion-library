@@ -3,7 +3,7 @@ export type speedUnitType = 'km/h' | '千米/小时' | 'km/m' | '千米/分钟' 
 /**
  * **speedConversionBase**
  * 
- * <Badge type="tip" text="version: v0.0.14+" />
+ * <Badge type="tip" text="version: v0.0.16+" />
  * 
  * @group speed-conversion
  *
