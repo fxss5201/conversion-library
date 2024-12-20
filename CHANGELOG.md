@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.16](https://github.com/fxss5201/conversion-library/compare/v0.0.15...v0.0.16) (2024-12-20)
+
+
+### Features
+
+* 更新文档 ([c2cfbe0](https://github.com/fxss5201/conversion-library/commit/c2cfbe0be236886979c8d55e1119d4e97919158b))
+* 增加速度转换 ([43b3523](https://github.com/fxss5201/conversion-library/commit/43b35231a62d0d3c7cfa5b0b36652a2760306cf1))
+
 ## [0.0.15](https://github.com/fxss5201/conversion-library/compare/v0.0.14...v0.0.15) (2024-11-22)
 
 
